@@ -14,12 +14,11 @@ Qt, which the app already uses.  Run with the repo venv:
 """
 import os
 import struct
-import sys
 
-os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
-
+# No QGuiApplication: QImage, QPainter and the PNG plugin work without one, which
+# keeps this runnable on a headless build host (no display, no libEGL).
 from PySide6.QtCore import QBuffer, QByteArray, QIODevice, Qt    # noqa: E402
-from PySide6.QtGui import QGuiApplication, QImage, QPainter      # noqa: E402
+from PySide6.QtGui import QImage, QPainter                       # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "qrss", "data", "w9cr_bat.png")
@@ -73,7 +72,6 @@ def write_ico(path):
 
 
 def main():
-    QGuiApplication(sys.argv)                           # Qt needs an application object
     os.makedirs(OUT, exist_ok=True)
     write_icns(os.path.join(OUT, "qbs.icns"))
     write_ico(os.path.join(OUT, "qbs.ico"))

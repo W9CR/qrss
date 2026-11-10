@@ -43,7 +43,15 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt pyinstaller
-      - run: sh release/build-macos.sh
+      - name: Build
+        run: |
+          set +e
+          sh release/build-macos.sh 2>&1 | tee build.log
+          rc=${PIPESTATUS[0]}
+          # Job logs need a login to read; check-run annotations do not, so put the
+          # tail of a failed build there.
+          [ $rc -eq 0 ] || tail -n 60 build.log | sed 's/%/%25/g' | sed 's/^/::error::/'
+          exit $rc
       - uses: actions/upload-artifact@v4
         with:
           name: macos
@@ -61,7 +69,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt pyinstaller
-      - run: sh release/build-linux.sh
+      - name: Build
+        run: |
+          set +e
+          sh release/build-linux.sh 2>&1 | tee build.log
+          rc=${PIPESTATUS[0]}
+          [ $rc -eq 0 ] || tail -n 60 build.log | sed 's/%/%25/g' | sed 's/^/::error::/'
+          exit $rc
       - uses: actions/upload-artifact@v4
         with:
           name: linux
@@ -81,7 +95,15 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt pyinstaller
       - run: choco install innosetup -y --no-progress
-      - run: pwsh -NoProfile -File release/build-windows.ps1
+      - name: Build
+        shell: pwsh
+        run: |
+          pwsh -NoProfile -File release/build-windows.ps1 2>&1 | Tee-Object build.log
+          $rc = $LASTEXITCODE
+          if ($rc -ne 0) {
+            Get-Content build.log -Tail 60 | ForEach-Object { "::error::$_" }
+          }
+          exit $rc
       - uses: actions/upload-artifact@v4
         with:
           name: windows
