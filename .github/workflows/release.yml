@@ -124,9 +124,12 @@ jobs:
       - name: Smoke test
         shell: pwsh
         run: |
-          # A windowed exe has no console to print to; the exit status is the test.
-          & (Join-Path $PWD "release\out\dist\QBS\QBS.exe") --version
-          if ($LASTEXITCODE -ne 0) { throw "QBS.exe --version exited $LASTEXITCODE" }
+          # A windowed exe has no console to print to, and the call operator does
+          # not reliably wait for one; the exit status is the test.
+          $p = Start-Process -FilePath "release\out\dist\QBS\QBS.exe" `
+               -ArgumentList "--version" -Wait -PassThru
+          $p.ExitCode
+          if ($p.ExitCode -ne 0) { throw "QBS.exe --version exited $($p.ExitCode)" }
       - uses: actions/upload-artifact@v4
         with:
           name: windows
