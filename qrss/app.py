@@ -1623,8 +1623,10 @@ class MainWindow(QMainWindow):
 def main():
     if "--version" in sys.argv[1:]:
         # Before Qt is started, so it works on a headless machine - the release
-        # builds use it as a smoke test of the frozen bundle.
-        print("QBS %s" % __version__)
+        # builds use it as a smoke test of the frozen bundle.  A windowed Windows
+        # exe has no stdout (PyInstaller sets it to None), hence the guard.
+        if sys.stdout is not None:
+            sys.stdout.write("QBS %s\n" % __version__)
         return
     if sys.platform == "darwin":
         # macOS reads the application-menu name ("Python" for a `python -m` run, with About/Hide/Quit)
