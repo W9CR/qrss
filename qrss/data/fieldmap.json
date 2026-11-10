@@ -1,0 +1,2361 @@
+[
+ {
+  "form": "DSTCG",
+  "field": "power_supply",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    44,
+    15
+   ]
+  ],
+  "options": {
+   "AC HIGH": [
+    14
+   ],
+   "AC LOW": [
+    9
+   ],
+   "DC LOW": [
+    1
+   ],
+   "DC HIGH": [
+    6
+   ]
+  },
+  "clist": [
+   "AC LOW",
+   "AC HIGH",
+   "DC LOW",
+   "DC HIGH"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "battery_type",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    44,
+    112
+   ]
+  ],
+  "options": {
+   "NONE": [
+    0
+   ],
+   "LEAD_ACID_LIN": [
+    32
+   ],
+   "LEAD_ACID_NON": [
+    48
+   ],
+   "NICAD": [
+    64
+   ]
+  },
+  "clist": [
+   "NONE",
+   "LEAD_ACID_LIN",
+   "LEAD_ACID_NON",
+   "NICAD"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "wireline",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    18,
+    192
+   ],
+   [
+    "si",
+    80,
+    8
+   ]
+  ],
+  "options": {
+   "8-WIRE": [
+    192,
+    8
+   ],
+   "NONE": [
+    0,
+    0
+   ],
+   "4-WIRE": [
+    64,
+    0
+   ]
+  },
+  "clist": [
+   "NONE",
+   "4-WIRE",
+   "8-WIRE"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "wildcard_oper",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    80,
+    12
+   ]
+  ],
+  "options": {
+   "ENHANCED": [
+    8
+   ],
+   "DISABLED": [
+    0
+   ],
+   "BASIC": [
+    4
+   ]
+  },
+  "clist": [
+   "DISABLED",
+   "BASIC",
+   "ENHANCED"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "ref_selection",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    14,
+    240
+   ]
+  ],
+  "options": {
+   "INTERNAL - STANDARD": [
+    0
+   ],
+   "EXTERNAL - 5 MHZ": [
+    144
+   ],
+   "EXTERNAL - 10 MHZ": [
+    208
+   ],
+   "INTERNAL - HIGH STABILITY": [
+    160
+   ]
+  },
+  "clist": [
+   "INTERNAL - STANDARD",
+   "EXTERNAL - 5 MHZ",
+   "EXTERNAL - 10 MHZ",
+   "INTERNAL - HIGH STABILITY"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "simulcast_oper",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    78,
+    64
+   ],
+   [
+    "si",
+    172,
+    160
+   ],
+   [
+    "chan",
+    45,
+    8
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0,
+    128,
+    0
+   ],
+   "ENABLED": [
+    64,
+    0,
+    8
+   ],
+   "SELECT": [
+    64,
+    32,
+    8
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED",
+   "SELECT"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "multi_coded_sq",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    81,
+    4
+   ],
+   [
+    "dir7",
+    2,
+    64
+   ],
+   [
+    "dir7",
+    4,
+    64
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0,
+    0,
+    0
+   ],
+   "MULTI-NAC": [
+    4,
+    64,
+    64
+   ]
+  },
+  "clist": [
+   "MULTI-NAC",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "mrti_interface",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    79,
+    2
+   ],
+   [
+    "chan",
+    50,
+    16
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0,
+    0
+   ],
+   "ENABLED": [
+    2,
+    16
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "scan_rcvr_opt",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    80,
+    2
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    2
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "site_number",
+  "kind": "int",
+  "loc": "si",
+  "off": 182,
+  "size": 2,
+  "scale": 257.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DSTCG",
+  "field": "ext_wattmeter",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    81,
+    8
+   ]
+  ],
+  "options": {
+   "NONE": [
+    0
+   ],
+   "INSTALLED": [
+    8
+   ]
+  },
+  "clist": [
+   "NONE",
+   "INSTALLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "wireline_oper",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    18,
+    60
+   ]
+  ],
+  "options": {
+   "4 WIRE FULL DUPLEX": [
+    48
+   ],
+   "2 WIRE HALF DUPLEX": [
+    0
+   ],
+   "4 WIRE HALF DUPLEX": [
+    32
+   ],
+   "6 WIRE FULL DUPLEX": [
+    56
+   ],
+   "8 WIRE FULL DUPLEX": [
+    52
+   ]
+  },
+  "clist": [
+   "2 WIRE HALF DUPLEX",
+   "4 WIRE HALF DUPLEX",
+   "4 WIRE FULL DUPLEX",
+   "6 WIRE FULL DUPLEX",
+   "8 WIRE FULL DUPLEX"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "equalization",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    2,
+    8
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    8
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "astro_spectra",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    78,
+    32
+   ],
+   [
+    "si",
+    180,
+    96
+   ]
+  ],
+  "options": {
+   "NONE": [
+    0,
+    0
+   ],
+   "ASTRO-TAC": [
+    32,
+    32
+   ],
+   "ASTRO-TAC WITH DIGI-TAC": [
+    32,
+    96
+   ]
+  },
+  "clist": [
+   "NONE",
+   "ASTRO-TAC",
+   "ASTRO-TAC WITH DIGI-TAC"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "status_tone",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    2,
+    128
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    128
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "wl_squelch",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    18,
+    128
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    128
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "rx_secure_to_wl",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    79,
+    128
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    128
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "astro_wl_interf",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    2,
+    15
+   ]
+  ],
+  "options": {
+   "MODEM": [
+    1
+   ],
+   "V.24 ONLY": [
+    2
+   ],
+   "V.24 HYBRID": [
+    3
+   ]
+  },
+  "clist": [
+   "MODEM",
+   "V.24 ONLY",
+   "V.24 HYBRID"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "alm",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    3,
+    4
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    4
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "dlm",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    3,
+    16
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    16
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "ext_tx_clock",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    3,
+    128
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    128
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "modem_rx_level",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    3,
+    64
+   ]
+  ],
+  "options": {
+   "0  To -28": [
+    64
+   ],
+   "-9 To -37": [
+    0
+   ]
+  },
+  "clist": [
+   "0  To -28",
+   "-9 To -37"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "modem_tx_level",
+  "kind": "int",
+  "loc": "dir8",
+  "off": 14,
+  "size": 2,
+  "scale": 256.0,
+  "add": 0.0,
+  "signed": true,
+  "decimals": 0
+ },
+ {
+  "form": "DWIREL",
+  "field": "rt_rt_config",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    157,
+    4
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    4
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DACC",
+  "field": "astro_car_squ",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir7",
+    2,
+    176
+   ],
+   [
+    "dir7",
+    4,
+    191
+   ],
+   [
+    "dir7",
+    5,
+    255
+   ]
+  ],
+  "options": {
+   "NORMAL": [
+    0,
+    2,
+    147
+   ],
+   "DCS": [
+    128,
+    128,
+    0
+   ],
+   "NAC $F7E": [
+    144,
+    159,
+    126
+   ],
+   "CR $F7F": [
+    160,
+    175,
+    127
+   ]
+  },
+  "clist": [
+   "NORMAL",
+   "DCS",
+   "NAC $F7E",
+   "CR $F7F"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "mod_type",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    18,
+    184
+   ],
+   [
+    "chan",
+    20,
+    184
+   ]
+  ],
+  "options": {
+   "ANALOG": [
+    32,
+    32
+   ],
+   "ASTRO CAI": [
+    144,
+    144
+   ],
+   "ANALOG/ASTRO CAI": [
+    176,
+    176
+   ],
+   "CAI RX WIDE DEV": [
+    152,
+    152
+   ]
+  },
+  "clist": [
+   "ANALOG",
+   "ASTRO CAI",
+   "ANALOG/ASTRO CAI",
+   "CAI RX WIDE DEV"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "rated_dev",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    30,
+    26
+   ],
+   [
+    "chan",
+    31,
+    76
+   ]
+  ],
+  "options": {
+   "5.000": [
+    18,
+    8
+   ],
+   "2.500": [
+    8,
+    68
+   ]
+  },
+  "clist": [
+   "2.500",
+   "5.000"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "chn_spacing",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    12,
+    12
+   ],
+   [
+    "xchan",
+    4,
+    12
+   ]
+  ],
+  "options": {
+   "WIDE      25-30": [
+    4,
+    4
+   ],
+   "NARROW     12.5": [
+    12,
+    12
+   ],
+   "NARROW  12.5-15": [
+    0,
+    0
+   ]
+  },
+  "clist": [
+   "NARROW     12.5",
+   "NARROW  12.5-15",
+   "WIDE      25-30"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "callsign_wl",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    50,
+    32
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    32
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "acc_tbl_num",
+  "kind": "int",
+  "loc": "chan",
+  "off": 41,
+  "size": 1,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DCHN",
+  "field": "carrier_sql_trs",
+  "kind": "enum",
+  "slots": [
+   [
+    "xchan",
+    8,
+    32
+   ]
+  ],
+  "options": {
+   "NORMAL": [
+    0
+   ],
+   "SHIFTED": [
+    32
+   ]
+  },
+  "clist": [
+   "SHIFTED",
+   "NORMAL"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "rx_active",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    22,
+    224
+   ]
+  ],
+  "options": {
+   "S=Carrier Sql.": [
+    192
+   ],
+   "ON=Unsquelched": [
+    128
+   ],
+   "OFF": [
+    0
+   ],
+   "C=PL/DPL": [
+    160
+   ],
+   "SC=Carrier and PL/DPL": [
+    224
+   ]
+  },
+  "clist": [
+   "ON=Unsquelched",
+   "OFF",
+   "S=Carrier Sql.",
+   "C=PL/DPL",
+   "SC=Carrier and PL/DPL"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "rptr_active",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    24,
+    224
+   ]
+  ],
+  "options": {
+   "OFF": [
+    0
+   ],
+   "ON=Unsquelched": [
+    128
+   ],
+   "S=Carrier Sql.": [
+    192
+   ],
+   "C=PL/DPL": [
+    160
+   ],
+   "SC=Carrier and PL/DPL": [
+    224
+   ]
+  },
+  "clist": [
+   "ON=Unsquelched",
+   "OFF",
+   "S=Carrier Sql.",
+   "C=PL/DPL",
+   "SC=Carrier and PL/DPL"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "rptr_holdin",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    26,
+    224
+   ]
+  ],
+  "options": {
+   "OFF": [
+    0
+   ],
+   "ON=Unsquelched": [
+    128
+   ],
+   "S=Carrier Sql.": [
+    192
+   ],
+   "C=PL/DPL": [
+    160
+   ],
+   "SC=Carrier and PL/DPL": [
+    224
+   ]
+  },
+  "clist": [
+   "ON=Unsquelched",
+   "OFF",
+   "S=Carrier Sql.",
+   "C=PL/DPL",
+   "SC=Carrier and PL/DPL"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "rf_repeater_acc",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    24,
+    16
+   ],
+   [
+    "chan",
+    26,
+    16
+   ]
+  ],
+  "options": {
+   "NONE": [
+    0,
+    0
+   ],
+   "MDC/TONE": [
+    16,
+    16
+   ]
+  },
+  "clist": [
+   "NONE",
+   "MDC/TONE"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "tx_pwr_out",
+  "kind": "int",
+  "loc": "chan",
+  "off": 32,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DCHN",
+  "field": "tx_pwr_out_batt",
+  "kind": "int",
+  "loc": "chan",
+  "off": 34,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DCHN",
+  "field": "alarm_air",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    50,
+    128
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    128
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "alarm_wireline",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    50,
+    64
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    64
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "pre_emphasis",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    16,
+    128
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    128
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "de_emphasis",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    12,
+    128
+   ],
+   [
+    "xchan",
+    4,
+    128
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    128,
+    128
+   ],
+   "DISABLED": [
+    0,
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "hi_pass_filter",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    12,
+    64
+   ],
+   [
+    "chan",
+    16,
+    16
+   ],
+   [
+    "xchan",
+    4,
+    64
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    64,
+    16,
+    64
+   ],
+   "DISABLED": [
+    0,
+    0,
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "rptr_dod",
+  "kind": "int",
+  "loc": "chan",
+  "off": 46,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DCHN",
+  "field": "compander",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    12,
+    16
+   ],
+   [
+    "chan",
+    16,
+    64
+   ],
+   [
+    "xchan",
+    4,
+    16
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0,
+    0,
+    0
+   ],
+   "ENABLED": [
+    16,
+    64,
+    16
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "noise_canceller",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    12,
+    32
+   ],
+   [
+    "xchan",
+    4,
+    32
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0,
+    0
+   ],
+   "ENABLED": [
+    32,
+    32
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "data_polarity",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    12,
+    2
+   ],
+   [
+    "xchan",
+    4,
+    2
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0,
+    0
+   ],
+   "ENABLED": [
+    2,
+    2
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "repeater_boost",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    40,
+    1
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    1
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "repeater_oper",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    78,
+    16
+   ]
+  ],
+  "options": {
+   "BASE": [
+    0
+   ],
+   "REPEATER": [
+    16
+   ]
+  },
+  "clist": [
+   "REPEATER",
+   "BASE"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "max_deviation",
+  "kind": "int",
+  "loc": "si",
+  "off": 109,
+  "size": 2,
+  "scale": 256.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DRFCFG",
+  "field": "low_speed_data",
+  "kind": "int",
+  "loc": "si",
+  "off": 177,
+  "size": 2,
+  "scale": 10.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 1
+ },
+ {
+  "form": "DRFCFG",
+  "field": "antenna_relay",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    26,
+    1
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    1
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "call_sign_inter",
+  "kind": "int",
+  "loc": "si",
+  "off": 102,
+  "size": 2,
+  "scale": 60.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DRFCFG",
+  "field": "last_active_chn",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    79,
+    16
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    16
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "startup_chn",
+  "kind": "int",
+  "loc": "si",
+  "off": 107,
+  "size": 1,
+  "scale": 1.0,
+  "add": -1.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DRFCFG",
+  "field": "fade_tolerance",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    157,
+    3
+   ]
+  ],
+  "options": {
+   "3 FRAMES": [
+    3
+   ],
+   "1 FRAME": [
+    1
+   ],
+   "2 FRAMES": [
+    2
+   ]
+  },
+  "clist": [
+   "1 FRAME",
+   "2 FRAMES",
+   "3 FRAMES"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "rdlap_repeat",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    156,
+    1
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    1
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "rdlap_wl_dod",
+  "kind": "int",
+  "loc": "si",
+  "off": 179,
+  "size": 2,
+  "scale": 256.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DRFCFG",
+  "field": "simul_tx_filter",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    172,
+    128
+   ]
+  ],
+  "options": {
+   "NARROW PULSE": [
+    128
+   ],
+   "WIDE PULSE": [
+    0
+   ]
+  },
+  "clist": [
+   "WIDE PULSE",
+   "NARROW PULSE"
+  ]
+ },
+ {
+  "form": "DSCANL",
+  "field": "scan_at_reset",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    196,
+    128
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    128
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DSCANL",
+  "field": "channel_marking",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    196,
+    24
+   ]
+  ],
+  "options": {
+   "OFF": [
+    0
+   ],
+   "NORMAL": [
+    8
+   ],
+   "PRIORITY": [
+    16
+   ],
+   "NORMAL+PRIORITY": [
+    24
+   ]
+  },
+  "clist": [
+   "OFF",
+   "NORMAL",
+   "PRIORITY",
+   "NORMAL+PRIORITY"
+  ]
+ },
+ {
+  "form": "DSCANL",
+  "field": "scan_delay",
+  "kind": "int",
+  "loc": "si",
+  "off": 198,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DSCANL",
+  "field": "pri_scan_delay",
+  "kind": "int",
+  "loc": "si",
+  "off": 200,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DSCANL",
+  "field": "scan_sample",
+  "kind": "int",
+  "loc": "si",
+  "off": 202,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DSCANL",
+  "field": "rx_qualify_tm",
+  "kind": "int",
+  "loc": "si",
+  "off": 206,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DSCANL",
+  "field": "resume_scan_tm",
+  "kind": "int",
+  "loc": "si",
+  "off": 208,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DCHN",
+  "field": "mrti_operation",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    50,
+    16
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    16
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "ilgl_car_siglvl",
+  "kind": "int",
+  "loc": "xchan",
+  "off": 10,
+  "size": 1,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DCHN",
+  "field": "brstat",
+  "kind": "enum",
+  "slots": [
+   [
+    "xchan",
+    8,
+    64
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    64
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "monb4xmit",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    50,
+    8
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    8
+   ],
+   "DISABLED": [
+    0
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DCHN",
+  "field": "csq_delay_time",
+  "kind": "int",
+  "loc": "chan",
+  "off": 36,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DRFCFG",
+  "field": "ant_relay_delay",
+  "kind": "int",
+  "loc": "si",
+  "off": 88,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DWIREL",
+  "field": "hlgt_frequency",
+  "kind": "int",
+  "loc": "dir8",
+  "off": 4,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DWIREL",
+  "field": "auto_level_ctrl",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    2,
+    32
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    32
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "wl_tx_notch",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    2,
+    16
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    16
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "wl_rx_notch",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    2,
+    4
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    4
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "llgt_undetect",
+  "kind": "int",
+  "loc": "dir8",
+  "off": 10,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DWIREL",
+  "field": "trc_detection_algorithm",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    3,
+    2
+   ]
+  ],
+  "options": {
+   "NORMAL": [
+    0
+   ],
+   "TIGHT": [
+    2
+   ]
+  },
+  "clist": [
+   "NORMAL",
+   "TIGHT"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "function_tones_detected",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    3,
+    1
+   ]
+  ],
+  "options": {
+   "2": [
+    0
+   ],
+   "1": [
+    1
+   ]
+  },
+  "clist": [
+   "1",
+   "2"
+  ]
+ },
+ {
+  "form": "DSTCG",
+  "field": "main_standby",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    81,
+    64
+   ],
+   [
+    "si",
+    190,
+    16
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0,
+    0
+   ],
+   "MAIN": [
+    64,
+    0
+   ],
+   "STANDBY": [
+    64,
+    16
+   ]
+  },
+  "clist": [
+   "DISABLED",
+   "MAIN",
+   "STANDBY"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "fast_keyup",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    81,
+    32
+   ],
+   [
+    "si",
+    190,
+    4
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0,
+    0
+   ],
+   "AUX TX": [
+    32,
+    0
+   ],
+   "WIDEBAND": [
+    32,
+    4
+   ]
+  },
+  "clist": [
+   "DISABLED",
+   "AUX TX",
+   "WIDEBAND"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "enhanced_squelch",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    191,
+    192
+   ]
+  ],
+  "options": {
+   "ENABLED": [
+    64
+   ],
+   "DISABLED": [
+    128
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ },
+ {
+  "form": "DRFCFG",
+  "field": "car_malf_tot",
+  "kind": "int",
+  "loc": "si",
+  "off": 148,
+  "size": 1,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DWIREL",
+  "field": "status_tone_frq",
+  "kind": "int",
+  "loc": "dir8",
+  "off": 6,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DWIREL",
+  "field": "wlsq_threshold",
+  "kind": "int",
+  "loc": "dir8",
+  "off": 20,
+  "size": 1,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DWIREL",
+  "field": "wlsq_hysteresis",
+  "kind": "int",
+  "loc": "dir8",
+  "off": 21,
+  "size": 1,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DWIREL",
+  "field": "trc_input",
+  "kind": "enum",
+  "slots": [
+   [
+    "dir8",
+    3,
+    8
+   ]
+  ],
+  "options": {
+   "LINE 1": [
+    0
+   ],
+   "LINE 3": [
+    8
+   ]
+  },
+  "clist": [
+   "LINE 1",
+   "LINE 3"
+  ]
+ },
+ {
+  "form": "DWIREL",
+  "field": "fallback_timer",
+  "kind": "int",
+  "loc": "si",
+  "off": 67,
+  "size": 1,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DVOICE",
+  "field": "first_vote_set",
+  "kind": "int",
+  "loc": "chan",
+  "off": 2,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DVOICE",
+  "field": "vote_hold",
+  "kind": "int",
+  "loc": "chan",
+  "off": 4,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DVOICE",
+  "field": "vote_sample",
+  "kind": "int",
+  "loc": "chan",
+  "off": 8,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DVOICE",
+  "field": "vote_switch",
+  "kind": "int",
+  "loc": "chan",
+  "off": 10,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DVOICE",
+  "field": "first_vote_hld",
+  "kind": "int",
+  "loc": "chan",
+  "off": 12,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DVOICE",
+  "field": "line_trans_set",
+  "kind": "int",
+  "loc": "chan",
+  "off": 14,
+  "size": 2,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DGEN",
+  "field": "ana_rep_hang",
+  "kind": "int",
+  "loc": "dir2",
+  "off": 2,
+  "size": 2,
+  "scale": 1000.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 1
+ },
+ {
+  "form": "DGEN",
+  "field": "ana_con_hang",
+  "kind": "int",
+  "loc": "dir2",
+  "off": 4,
+  "size": 2,
+  "scale": 1000.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 1
+ },
+ {
+  "form": "DGEN",
+  "field": "dig_rep_hang",
+  "kind": "int",
+  "loc": "dir2",
+  "off": 6,
+  "size": 2,
+  "scale": 1000.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 1
+ },
+ {
+  "form": "DGEN",
+  "field": "dig_con_hang",
+  "kind": "int",
+  "loc": "dir2",
+  "off": 8,
+  "size": 2,
+  "scale": 1000.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 1
+ },
+ {
+  "form": "DGEN",
+  "field": "dig_datcon_hang",
+  "kind": "int",
+  "loc": "dir2",
+  "off": 12,
+  "size": 2,
+  "scale": 1000.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 1
+ },
+ {
+  "form": "DGEN",
+  "field": "vote_priority",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    0,
+    3
+   ]
+  ],
+  "options": {
+   "FIRST IN": [
+    2
+   ],
+   "ANALOG>DIGITAL": [
+    0
+   ],
+   "DIGITAL>ANALOG": [
+    1
+   ]
+  },
+  "clist": [
+   "ANALOG>DIGITAL",
+   "DIGITAL>ANALOG",
+   "FIRST IN"
+  ]
+ },
+ {
+  "form": "DGEN",
+  "field": "src_base_prior",
+  "kind": "enum",
+  "slots": [
+   [
+    "chan",
+    1,
+    1
+   ]
+  ],
+  "options": {
+   "CONSOLE": [
+    1
+   ],
+   "REPEAT": [
+    0
+   ]
+  },
+  "clist": [
+   "REPEAT",
+   "CONSOLE"
+  ]
+ },
+ {
+  "form": "DSCANL",
+  "field": "float_priority",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    196,
+    96
+   ]
+  ],
+  "options": {
+   "OFF": [
+    0
+   ],
+   "RX": [
+    32
+   ],
+   "TX": [
+    64
+   ],
+   "RX+TX": [
+    96
+   ]
+  },
+  "clist": [
+   "OFF",
+   "RX",
+   "TX",
+   "RX+TX"
+  ]
+ },
+ {
+  "form": "DHWCFG",
+  "field": "battery",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    9,
+    255
+   ]
+  ],
+  "options": {
+   "NONE": [
+    0
+   ],
+   "LEAD_ACID_NON": [
+    1
+   ],
+   "NICAD": [
+    2
+   ],
+   "LEAD_ACID_LIN": [
+    3
+   ]
+  },
+  "clist": [
+   "NONE",
+   "LEAD_ACID_LIN",
+   "LEAD_ACID_NON",
+   "NICAD"
+  ]
+ },
+ {
+  "form": "DHWCFG",
+  "field": "simul_lt_delay",
+  "kind": "int",
+  "loc": "si",
+  "off": 37,
+  "size": 1,
+  "scale": 1.0,
+  "add": 0.0,
+  "signed": false,
+  "decimals": 0
+ },
+ {
+  "form": "DHWCFG",
+  "field": "vote_scan",
+  "kind": "enum",
+  "slots": [
+   [
+    "si",
+    42,
+    4
+   ]
+  ],
+  "options": {
+   "DISABLED": [
+    0
+   ],
+   "ENABLED": [
+    4
+   ]
+  },
+  "clist": [
+   "ENABLED",
+   "DISABLED"
+  ]
+ }
+]

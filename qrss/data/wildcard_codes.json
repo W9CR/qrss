@@ -1,0 +1,1082 @@
+{
+ "states": {
+  "ACC DISABLED": {
+   "code": 0,
+   "value": false
+  },
+  "BATTERY REVERT": {
+   "code": 1,
+   "value": false
+  },
+  "BTRY OVR ALARM": {
+   "code": 2,
+   "value": false
+  },
+  "COLD RESET": {
+   "code": 3,
+   "value": false
+  },
+  "CONTROL CHN": {
+   "code": 4,
+   "value": false
+  },
+  "CUR CHN": {
+   "code": 5,
+   "value": true,
+   "base": 1
+  },
+  "DATA PTT": {
+   "code": 6,
+   "value": false
+  },
+  "EVENT FLAG 1": {
+   "code": 7,
+   "value": false
+  },
+  "EVENT FLAG 2": {
+   "code": 8,
+   "value": false
+  },
+  "EVENT FLAG 3": {
+   "code": 9,
+   "value": false
+  },
+  "EVENT FLAG 4": {
+   "code": 10,
+   "value": false
+  },
+  "EVENT FLAG 5": {
+   "code": 11,
+   "value": false
+  },
+  "EVENT FLAG 6": {
+   "code": 12,
+   "value": false
+  },
+  "EVENT FLAG 7": {
+   "code": 13,
+   "value": false
+  },
+  "EVENT FLAG 8": {
+   "code": 14,
+   "value": false
+  },
+  "EVENT FLAG 9": {
+   "code": 15,
+   "value": false
+  },
+  "EVENT FLAG 10": {
+   "code": 16,
+   "value": false
+  },
+  "EVENT FLAG 11": {
+   "code": 17,
+   "value": false
+  },
+  "EVENT FLAG 12": {
+   "code": 18,
+   "value": false
+  },
+  "EVENT FLAG 13": {
+   "code": 19,
+   "value": false
+  },
+  "EVENT FLAG 14": {
+   "code": 20,
+   "value": false
+  },
+  "EVENT FLAG 15": {
+   "code": 21,
+   "value": false
+  },
+  "EVENT FLAG 16": {
+   "code": 22,
+   "value": false
+  },
+  "EXCITER ALARM": {
+   "code": 23,
+   "value": false
+  },
+  "FAILSOFT": {
+   "code": 24,
+   "value": false
+  },
+  "FWD PWR ALARM": {
+   "code": 25,
+   "value": false
+  },
+  "HLGT DETECT": {
+   "code": 26,
+   "value": false
+  },
+  "INPUT 1": {
+   "code": 27,
+   "value": false
+  },
+  "INPUT 2": {
+   "code": 28,
+   "value": false
+  },
+  "INPUT 3": {
+   "code": 29,
+   "value": false
+  },
+  "INPUT 4": {
+   "code": 30,
+   "value": false
+  },
+  "INPUT 5": {
+   "code": 31,
+   "value": false
+  },
+  "INPUT 6": {
+   "code": 32,
+   "value": false
+  },
+  "INPUT 7": {
+   "code": 33,
+   "value": false
+  },
+  "INPUT 8": {
+   "code": 34,
+   "value": false
+  },
+  "INPUT 9": {
+   "code": 35,
+   "value": false
+  },
+  "INPUT 10": {
+   "code": 36,
+   "value": false
+  },
+  "INPUT 11": {
+   "code": 37,
+   "value": false
+  },
+  "INPUT 12": {
+   "code": 38,
+   "value": false
+  },
+  "INTERCOM": {
+   "code": 39,
+   "value": false
+  },
+  "LINE PTT": {
+   "code": 40,
+   "value": false
+  },
+  "LLGT DETECT": {
+   "code": 41,
+   "value": false
+  },
+  "LOCAL PTT": {
+   "code": 42,
+   "value": false
+  },
+  "MAIN": {
+   "code": 43,
+   "value": false
+  },
+  "MCS USER": {
+   "code": 44,
+   "value": true
+  },
+  "MRTI PTT": {
+   "code": 45,
+   "value": false
+  },
+  "OUTPUT 1": {
+   "code": 46,
+   "value": false
+  },
+  "OUTPUT 2": {
+   "code": 47,
+   "value": false
+  },
+  "OUTPUT 3": {
+   "code": 48,
+   "value": false
+  },
+  "OUTPUT 4": {
+   "code": 49,
+   "value": false
+  },
+  "OUTPUT 5": {
+   "code": 50,
+   "value": false
+  },
+  "OUTPUT 6": {
+   "code": 51,
+   "value": false
+  },
+  "OUTPUT 7": {
+   "code": 52,
+   "value": false
+  },
+  "OUTPUT 8": {
+   "code": 53,
+   "value": false
+  },
+  "OUTPUT 9": {
+   "code": 54,
+   "value": false
+  },
+  "OUTPUT 10": {
+   "code": 55,
+   "value": false
+  },
+  "PA ALARM": {
+   "code": 56,
+   "value": false
+  },
+  "PIB ALARM": {
+   "code": 57,
+   "value": false
+  },
+  "PWR SPLY ALARM": {
+   "code": 58,
+   "value": false
+  },
+  "REFL PWR ALARM": {
+   "code": 59,
+   "value": false
+  },
+  "RPTR PTT": {
+   "code": 60,
+   "value": false
+  },
+  "RPTR QUAL MET": {
+   "code": 61,
+   "value": false
+  },
+  "RPTR SET UP": {
+   "code": 62,
+   "value": false
+  },
+  "RX1 ALARM": {
+   "code": 63,
+   "value": false
+  },
+  "RX ASTRO ID": {
+   "code": 64,
+   "value": false
+  },
+  "RX CAR DETECT": {
+   "code": 65,
+   "value": false
+  },
+  "RX CD DETECT": {
+   "code": 66,
+   "value": false
+  },
+  "RX INHIBITED": {
+   "code": 67,
+   "value": false
+  },
+  "RX1 LOCK": {
+   "code": 68,
+   "value": false
+  },
+  "RX PL DETECT": {
+   "code": 69,
+   "value": false
+  },
+  "RX PL DISABLED": {
+   "code": 70,
+   "value": false
+  },
+  "RX QUAL MET": {
+   "code": 71,
+   "value": false
+  },
+  "SAM COMMAND": {
+   "code": 81,
+   "value": true
+  },
+  "STN KEYED": {
+   "code": 83,
+   "value": false
+  },
+  "TIMER DONE 1": {
+   "code": 84,
+   "value": false
+  },
+  "TIMER DONE 2": {
+   "code": 85,
+   "value": false
+  },
+  "TIMER DONE 3": {
+   "code": 86,
+   "value": false
+  },
+  "TIMER DONE 4": {
+   "code": 87,
+   "value": false
+  },
+  "TIMER DONE 5": {
+   "code": 88,
+   "value": false
+  },
+  "TIMER DONE 6": {
+   "code": 89,
+   "value": false
+  },
+  "TIMER DONE 7": {
+   "code": 90,
+   "value": false
+  },
+  "TIMER DONE 8": {
+   "code": 91,
+   "value": false
+  },
+  "TIMER DONE 9": {
+   "code": 92,
+   "value": false
+  },
+  "TIMER DONE 10": {
+   "code": 93,
+   "value": false
+  },
+  "TRC TONE": {
+   "code": 94,
+   "value": false
+  },
+  "TX INHIBITED": {
+   "code": 95,
+   "value": false
+  },
+  "TX LOCK": {
+   "code": 96,
+   "value": false
+  },
+  "TX PL DISABLED": {
+   "code": 97,
+   "value": false
+  },
+  "TX WL1 CD DET": {
+   "code": 98,
+   "value": false
+  },
+  "UHSO ALARM": {
+   "code": 99,
+   "value": false
+  },
+  "WARM RESET": {
+   "code": 100,
+   "value": false
+  },
+  "WL ALARM": {
+   "code": 101,
+   "value": false
+  },
+  "CLR RPTR PTT": {
+   "code": 102,
+   "value": false
+  },
+  "ASTRO RPTR PTT": {
+   "code": 103,
+   "value": false
+  },
+  "SECUR RPTR PTT": {
+   "code": 104,
+   "value": false
+  },
+  "CLR LINE PTT": {
+   "code": 105,
+   "value": false
+  },
+  "ASTRO LINE PTT": {
+   "code": 106,
+   "value": false
+  },
+  "SECUR LINE PTT": {
+   "code": 107,
+   "value": false
+  },
+  "RX ANALOG": {
+   "code": 108,
+   "value": false
+  },
+  "ACC CODE TBL": {
+   "code": 109,
+   "value": true,
+   "base": 1
+  },
+  "SAM ALARM": {
+   "code": 110,
+   "value": false
+  },
+  "SCANNING RX": {
+   "code": 111,
+   "value": false
+  },
+  "SCAN SUSPENDED": {
+   "code": 112,
+   "value": false
+  },
+  "STN ALARM": {
+   "code": 113,
+   "value": false
+  },
+  "DGTL LINK ALARM": {
+   "code": 114,
+   "value": false
+  },
+  "ANLG LINK ALARM": {
+   "code": 115,
+   "value": false
+  },
+  "BOOSTER FAIL": {
+   "code": 116,
+   "value": false
+  },
+  "EXT WM FWD ALM": {
+   "code": 117,
+   "value": false
+  },
+  "EXT WM REFL ALM": {
+   "code": 118,
+   "value": false
+  },
+  "1PPS TRACK ALM": {
+   "code": 119,
+   "value": false
+  },
+  "1PPS INIT SYNC": {
+   "code": 120,
+   "value": false
+  },
+  "1PPS INIT SRCH": {
+   "code": 121,
+   "value": false
+  },
+  "1PPS RT SYNC": {
+   "code": 122,
+   "value": false
+  },
+  "1PPS RT SRCH": {
+   "code": 123,
+   "value": false
+  },
+  "1PPS READY": {
+   "code": 124,
+   "value": false
+  }
+ },
+ "actions": {
+  "ABORT TIMER 1": {
+   "op": 0,
+   "idx": 1,
+   "value": false
+  },
+  "ABORT TIMER 2": {
+   "op": 0,
+   "idx": 2,
+   "value": false
+  },
+  "ABORT TIMER 3": {
+   "op": 0,
+   "idx": 3,
+   "value": false
+  },
+  "ABORT TIMER 4": {
+   "op": 0,
+   "idx": 4,
+   "value": false
+  },
+  "ABORT TIMER 5": {
+   "op": 0,
+   "idx": 5,
+   "value": false
+  },
+  "ABORT TIMER 6": {
+   "op": 0,
+   "idx": 6,
+   "value": false
+  },
+  "ABORT TIMER 7": {
+   "op": 0,
+   "idx": 7,
+   "value": false
+  },
+  "ABORT TIMER 8": {
+   "op": 0,
+   "idx": 8,
+   "value": false
+  },
+  "ABORT TIMER 9": {
+   "op": 0,
+   "idx": 9,
+   "value": false
+  },
+  "ABORT TIMER 10": {
+   "op": 0,
+   "idx": 10,
+   "value": false
+  },
+  "ACC TABLE": {
+   "op": 1,
+   "idx": null,
+   "value": true,
+   "base": 1
+  },
+  "ACC TBL NORM": {
+   "op": 2,
+   "idx": null,
+   "value": false
+  },
+  "ALARM NORMAL": {
+   "op": 5,
+   "idx": null,
+   "value": false
+  },
+  "ALARM OFF": {
+   "op": 6,
+   "idx": null,
+   "value": false
+  },
+  "CHN": {
+   "op": 7,
+   "idx": null,
+   "value": true,
+   "base": 1
+  },
+  "CLR EVENT FLAG": {
+   "op": 8,
+   "idx": null,
+   "value": true
+  },
+  "CLR OUTPUT": {
+   "op": 9,
+   "idx": null,
+   "value": true
+  },
+  "CLR SAM SPI": {
+   "op": 10,
+   "idx": null,
+   "value": true
+  },
+  "DEKEY FROM WB": {
+   "op": 11,
+   "idx": null,
+   "value": false
+  },
+  "DEKEY FROM WL": {
+   "op": 12,
+   "idx": null,
+   "value": false
+  },
+  "DEKEY PL": {
+   "op": 13,
+   "idx": null,
+   "value": false
+  },
+  "DPLX DISABLE": {
+   "op": 14,
+   "idx": null,
+   "value": false
+  },
+  "DPLX ENABLE": {
+   "op": 15,
+   "idx": null,
+   "value": false
+  },
+  "EXT CD DETECT": {
+   "op": 16,
+   "idx": null,
+   "value": false
+  },
+  "EXT CD UNDETEC": {
+   "op": 17,
+   "idx": null,
+   "value": false
+  },
+  "FAILSOFT NORM": {
+   "op": 18,
+   "idx": null,
+   "value": false
+  },
+  "FAILSOFT OFF": {
+   "op": 19,
+   "idx": null,
+   "value": false
+  },
+  "FAILSOFT ON": {
+   "op": 20,
+   "idx": null,
+   "value": false
+  },
+  "HLGT ON": {
+   "op": 21,
+   "idx": null,
+   "value": true
+  },
+  "KEY FROM WB": {
+   "op": 22,
+   "idx": null,
+   "value": false
+  },
+  "KEY FROM WL": {
+   "op": 23,
+   "idx": null,
+   "value": false
+  },
+  "KEY WITH PL": {
+   "op": 24,
+   "idx": null,
+   "value": false
+  },
+  "LLGT OFF": {
+   "op": 25,
+   "idx": null,
+   "value": false
+  },
+  "LLGT ON": {
+   "op": 26,
+   "idx": null,
+   "value": false
+  },
+  "MAIN": {
+   "op": 27,
+   "idx": null,
+   "value": false
+  },
+  "MRTI DISABLE": {
+   "op": 28,
+   "idx": null,
+   "value": false
+  },
+  "MRTI ENABLE": {
+   "op": 29,
+   "idx": null,
+   "value": false
+  },
+  "MUTE TX": {
+   "op": 30,
+   "idx": null,
+   "value": false
+  },
+  "NULL": {
+   "op": 32,
+   "idx": null,
+   "value": false
+  },
+  "RESET": {
+   "op": 33,
+   "idx": null,
+   "value": false
+  },
+  "RF TONE ON": {
+   "op": 34,
+   "idx": null,
+   "value": true
+  },
+  "RF TONE OFF": {
+   "op": 35,
+   "idx": null,
+   "value": false
+  },
+  "RPTR KNOCKDOWN": {
+   "op": 36,
+   "idx": null,
+   "value": false
+  },
+  "RPTR QUAL FORCE": {
+   "op": 37,
+   "idx": null,
+   "value": false
+  },
+  "RPTR QUAL NORM": {
+   "op": 38,
+   "idx": null,
+   "value": false
+  },
+  "RPTR SETUP": {
+   "op": 39,
+   "idx": null,
+   "value": false
+  },
+  "RSTR SVD CHN": {
+   "op": 40,
+   "idx": null,
+   "value": false
+  },
+  "RX ENABLE": {
+   "op": 41,
+   "idx": null,
+   "value": false
+  },
+  "RX INHIBIT": {
+   "op": 42,
+   "idx": null,
+   "value": false
+  },
+  "RX WL ENABLE": {
+   "op": 43,
+   "idx": null,
+   "value": false
+  },
+  "RX WL INHIBIT": {
+   "op": 44,
+   "idx": null,
+   "value": false
+  },
+  "RX WL MUTE": {
+   "op": 45,
+   "idx": null,
+   "value": false
+  },
+  "RX PL DISABLE": {
+   "op": 46,
+   "idx": null,
+   "value": false
+  },
+  "RX PL ENABLE": {
+   "op": 47,
+   "idx": null,
+   "value": false
+  },
+  "RX QUAL FORCE": {
+   "op": 48,
+   "idx": null,
+   "value": false
+  },
+  "RX QUAL NORM": {
+   "op": 49,
+   "idx": null,
+   "value": false
+  },
+  "SAVE CUR CHN": {
+   "op": 54,
+   "idx": null,
+   "value": false
+  },
+  "SCAN OFF": {
+   "op": 55,
+   "idx": null,
+   "value": false
+  },
+  "SCAN ON": {
+   "op": 56,
+   "idx": null,
+   "value": false
+  },
+  "SEL ALM DISABL": {
+   "op": 57,
+   "idx": null,
+   "value": false
+  },
+  "SEL ALM ENABLE": {
+   "op": 58,
+   "idx": null,
+   "value": false
+  },
+  "SET EVENT FLAG": {
+   "op": 59,
+   "idx": null,
+   "value": true
+  },
+  "SET OUTPUT": {
+   "op": 60,
+   "idx": null,
+   "value": true
+  },
+  "SET SAM SPI": {
+   "op": 61,
+   "idx": null,
+   "value": true
+  },
+  "STANDBY": {
+   "op": 62,
+   "idx": null,
+   "value": false
+  },
+  "START TIMER 1": {
+   "op": 63,
+   "idx": 1,
+   "value": true
+  },
+  "START TIMER 2": {
+   "op": 63,
+   "idx": 2,
+   "value": true
+  },
+  "START TIMER 3": {
+   "op": 63,
+   "idx": 3,
+   "value": true
+  },
+  "START TIMER 4": {
+   "op": 63,
+   "idx": 4,
+   "value": true
+  },
+  "START TIMER 5": {
+   "op": 63,
+   "idx": 5,
+   "value": true
+  },
+  "START TIMER 6": {
+   "op": 63,
+   "idx": 6,
+   "value": true
+  },
+  "START TIMER 7": {
+   "op": 63,
+   "idx": 7,
+   "value": true
+  },
+  "START TIMER 8": {
+   "op": 63,
+   "idx": 8,
+   "value": true
+  },
+  "START TIMER 9": {
+   "op": 63,
+   "idx": 9,
+   "value": true
+  },
+  "START TIMER 10": {
+   "op": 63,
+   "idx": 10,
+   "value": true
+  },
+  "TRC FT": {
+   "op": 64,
+   "idx": null,
+   "value": true
+  },
+  "TRUNK RPT OFF": {
+   "op": 65,
+   "idx": null,
+   "value": false
+  },
+  "TRUNK RPT ON": {
+   "op": 66,
+   "idx": null,
+   "value": false
+  },
+  "TX ENABLE": {
+   "op": 67,
+   "idx": null,
+   "value": false
+  },
+  "TX INHIBIT": {
+   "op": 68,
+   "idx": null,
+   "value": false
+  },
+  "TX PL DISABLE": {
+   "op": 69,
+   "idx": null,
+   "value": false
+  },
+  "TX PL ENABLE": {
+   "op": 70,
+   "idx": null,
+   "value": false
+  },
+  "UNMUTE TX": {
+   "op": 71,
+   "idx": null,
+   "value": false
+  },
+  "WAIT": {
+   "op": 72,
+   "idx": null,
+   "value": true
+  },
+  "WL TONE ON": {
+   "op": 73,
+   "idx": null,
+   "value": true
+  },
+  "WL TONE OFF": {
+   "op": 74,
+   "idx": null,
+   "value": false
+  },
+  "RX1-AUXRX OFF": {
+   "op": 75,
+   "idx": 0,
+   "value": false
+  },
+  "RX1-AUXRX ON": {
+   "op": 75,
+   "idx": 1,
+   "value": false
+  },
+  "RX1+AUXRX OFF": {
+   "op": 75,
+   "idx": 2,
+   "value": false
+  },
+  "RX1+AUXRX ON": {
+   "op": 75,
+   "idx": 3,
+   "value": false
+  },
+  "RXDSC-AUXRX OFF": {
+   "op": 75,
+   "idx": 14,
+   "value": false
+  },
+  "RXDSC-AUXRX ON": {
+   "op": 75,
+   "idx": 15,
+   "value": false
+  },
+  "AUXPL+TX OFF": {
+   "op": 75,
+   "idx": 16,
+   "value": false
+  },
+  "AUXPL+TX ON": {
+   "op": 75,
+   "idx": 17,
+   "value": false
+  },
+  "AUXTX-TX OFF": {
+   "op": 75,
+   "idx": 18,
+   "value": false
+  },
+  "AUXTX-TX ON": {
+   "op": 75,
+   "idx": 19,
+   "value": false
+  },
+  "WL1+WL2 OFF": {
+   "op": 75,
+   "idx": 22,
+   "value": false
+  },
+  "WL1+WL2 ON": {
+   "op": 75,
+   "idx": 23,
+   "value": false
+  },
+  "WL1+AUXRX OFF": {
+   "op": 75,
+   "idx": 24,
+   "value": false
+  },
+  "WL1+AUXRX ON": {
+   "op": 75,
+   "idx": 25,
+   "value": false
+  },
+  "WL1-WL2 OFF": {
+   "op": 75,
+   "idx": 28,
+   "value": false
+  },
+  "WL1-WL2 ON": {
+   "op": 75,
+   "idx": 29,
+   "value": false
+  },
+  "WL1-AUXRX OFF": {
+   "op": 75,
+   "idx": 30,
+   "value": false
+  },
+  "WL1-AUXRX ON": {
+   "op": 75,
+   "idx": 31,
+   "value": false
+  },
+  "WL3+TX OFF": {
+   "op": 75,
+   "idx": 34,
+   "value": false
+  },
+  "WL3+TX ON": {
+   "op": 75,
+   "idx": 35,
+   "value": false
+  },
+  "WL3+WL2 OFF": {
+   "op": 75,
+   "idx": 36,
+   "value": false
+  },
+  "WL3+WL2 ON": {
+   "op": 75,
+   "idx": 37,
+   "value": false
+  },
+  "WL3-TX OFF": {
+   "op": 75,
+   "idx": 40,
+   "value": false
+  },
+  "WL3-TX ON": {
+   "op": 75,
+   "idx": 41,
+   "value": false
+  },
+  "WL3-WL2 OFF": {
+   "op": 75,
+   "idx": 42,
+   "value": false
+  },
+  "WL3-WL2 ON": {
+   "op": 75,
+   "idx": 43,
+   "value": false
+  },
+  "SCAN RESUME": {
+   "op": 76,
+   "idx": null,
+   "value": false
+  },
+  "SCAN SUSPEND": {
+   "op": 77,
+   "idx": null,
+   "value": false
+  },
+  "ST ENABLE": {
+   "op": 78,
+   "idx": null,
+   "value": false
+  },
+  "ST DISABLE": {
+   "op": 79,
+   "idx": null,
+   "value": false
+  },
+  "TSTAT ACTIVE": {
+   "op": 80,
+   "idx": null,
+   "value": false
+  },
+  "TSTAT NON-ACTIV": {
+   "op": 81,
+   "idx": null,
+   "value": false
+  },
+  "TSTAT NORM": {
+   "op": 82,
+   "idx": null,
+   "value": false
+  },
+  "ALM TONES ON": {
+   "op": 83,
+   "idx": null,
+   "value": true
+  },
+  "ALM TONES NORML": {
+   "op": 84,
+   "idx": null,
+   "value": true
+  }
+ },
+ "conditions": {
+  "": 0,
+  "AND": 0,
+  "OR": 1,
+  "AND NOT": 2,
+  "OR NOT": 3
+ }
+}

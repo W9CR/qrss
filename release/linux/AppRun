@@ -1,0 +1,4 @@
+#!/bin/sh
+# AppRun for the QBS AppImage: start the bundled binary, pass arguments through.
+HERE=$(dirname "$(readlink -f "$0")")
+exec "$HERE/usr/bin/qbs" "$@"

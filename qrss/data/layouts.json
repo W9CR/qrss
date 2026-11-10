@@ -1,0 +1,8472 @@
+{
+ "D6809T": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rstat_mode"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rstat_mode"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 2,
+     "h": 5,
+     "kind": "group",
+     "name": "failsoft_group",
+     "label": "Failsoft"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 2,
+     "h": 2,
+     "kind": "group",
+     "name": "trunkingTickle_group",
+     "label": "Tickle Source"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "csc_log_chan"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "csc_log_chan"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "system_id"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "system_id"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_discrim"
+    },
+    {
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_discrim"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "failsoft_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "failsoft"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "failsoft"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "line_trc_encode"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "line_trc_encode"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "carrier_squelch"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "carrier_squelch"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "dual_ct_only"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dual_ct_only"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "failsoft_mod"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "failsoft_mod"
+    }
+   ],
+   "trunkingTickle_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "trk_tickle_src"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "trk_tickle_src"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "trk_tickle_tot"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "trk_tickle_tot"
+    }
+   ]
+  },
+  "groups": {
+   "failsoft_group": "Failsoft",
+   "trunkingTickle_group": "Tickle Source"
+  }
+ },
+ "DACC": {
+  "containers": {
+   "multi_nac_group": [
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "column1"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "column2"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_nac1"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_nac1"
+    },
+    {
+     "x": 2,
+     "y": 1,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_nac1"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_nac2"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_nac2"
+    },
+    {
+     "x": 2,
+     "y": 2,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_nac2"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_nac3"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_nac3"
+    },
+    {
+     "x": 2,
+     "y": 3,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_nac3"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_nac4"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_nac4"
+    },
+    {
+     "x": 2,
+     "y": 4,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_nac4"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_nac5"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_nac5"
+    },
+    {
+     "x": 2,
+     "y": 5,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_nac5"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_nac6"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_nac6"
+    },
+    {
+     "x": 2,
+     "y": 6,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_nac6"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_nac7"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_nac7"
+    },
+    {
+     "x": 2,
+     "y": 7,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_nac7"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_nac8"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_nac8"
+    },
+    {
+     "x": 2,
+     "y": 8,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_nac8"
+    }
+   ],
+   "lastreceivednAC_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "trsmt_last_nac"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "trsmt_last_nac"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "exp_time"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "exp_time"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "access_table"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "access_table"
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "access_tb_range"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_squelch_type"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_squelch_type"
+    },
+    {
+     "x": 4,
+     "y": 2,
+     "w": 2,
+     "h": 11,
+     "kind": "group",
+     "name": "multi_nac_group",
+     "label": "Multi-NAC Table"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_pl_dpl_1"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_pl_dpl_1"
+    },
+    {
+     "x": 2,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_pl_dpl_2"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_squelch_type"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_squelch_type"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_pl_dpl_1"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_pl_dpl_1"
+    },
+    {
+     "x": 2,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_pl_dpl_2"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "astro_car_squ"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "astro_car_squ"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_codeword"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_codeword"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_codeword"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_codeword"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 4,
+     "h": 3,
+     "kind": "group",
+     "name": "lastreceivednAC_group",
+     "label": "Last Received NAC"
+    },
+    {
+     "x": 0,
+     "y": 13,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "channels"
+    },
+    {
+     "x": 1,
+     "y": 13,
+     "w": 4,
+     "h": 1,
+     "kind": "field",
+     "name": "channels"
+    },
+    {
+     "x": 0,
+     "y": 20,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "lastreceivednAC_group": "Last Received NAC",
+   "multi_nac_group": "Multi-NAC Table"
+  }
+ },
+ "DACCT": {
+  "containers": {
+   "smart_connect_tone_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "pl_ct_disable"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "pl_ct_disable"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "disable_delay"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "disable_delay"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "connect_tone_1"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "connect_tone_1"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "connect_tone_2"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "connect_tone_2"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_codeword"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_codeword"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_codeword"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_codeword"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "smart_connect_tone_group",
+     "label": "Smart Connect Tone"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "smart_connect_tone_group": "Smart Connect Tone"
+  }
+ },
+ "DADV": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "call_sign_inter"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "call_sign_inter"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "max_deviation"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "max_deviation"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "low_speed_data"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "low_speed_data"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fade_tolerance"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fade_tolerance"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "enhanced_squelch"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "enhanced_squelch"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 4,
+     "h": 3,
+     "kind": "group",
+     "name": "securenet_group",
+     "label": "Securenet"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "securenet_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_fade_timer"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_fade_timer"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_fade_timer"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_fade_timer"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "secure_to_wl"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "secure_to_wl"
+    }
+   ]
+  },
+  "groups": {
+   "securenet_group": "Securenet"
+  }
+ },
+ "DCHN3": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_freq"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_freq"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_freq"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_freq"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_idle_freq"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_idle_freq"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mod_type"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mod_type"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rated_dev"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rated_dev"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "chn_spacing"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "chn_spacing"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "callsign"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "callsign"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_pwr_out"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_pwr_out"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_pwr_out_batt"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_pwr_out_batt"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DCHN": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "channel"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "channel"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 3,
+     "h": 1,
+     "kind": "field",
+     "name": "channel_num"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 0,
+     "h": 1,
+     "kind": "tabs",
+     "name": "m_tabbedPane",
+     "tabs": [
+      {
+       "var": "m_basicTab",
+       "name": "basic",
+       "label": "Basic"
+      },
+      {
+       "var": "m_advancedTab",
+       "name": "advanced",
+       "label": "Advanced"
+      }
+     ]
+    },
+    {
+     "x": 0,
+     "y": 29,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "m_basicTab": [
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_freq"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_freq"
+    },
+    {
+     "x": 3,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_freq"
+    },
+    {
+     "x": 4,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_freq"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx2_freq"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx2_freq"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_idle_freq"
+    },
+    {
+     "x": 4,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_idle_freq"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mod_type"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mod_type"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rated_dev"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rated_dev"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "chn_spacing"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 3,
+     "h": 1,
+     "kind": "field",
+     "name": "chn_spacing"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 3,
+     "h": 2,
+     "kind": "group",
+     "name": "Call_Sign_group",
+     "label": "Call Sign"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "acc_tbl_num"
+    },
+    {
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "acc_tbl_num"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "carrier_sql_trs"
+    },
+    {
+     "x": 1,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "carrier_sql_trs"
+    },
+    {
+     "x": 0,
+     "y": 12,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_active"
+    },
+    {
+     "x": 1,
+     "y": 12,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_active"
+    },
+    {
+     "x": 0,
+     "y": 13,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rptr_active"
+    },
+    {
+     "x": 1,
+     "y": 13,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rptr_active"
+    },
+    {
+     "x": 0,
+     "y": 14,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rptr_holdin"
+    },
+    {
+     "x": 1,
+     "y": 14,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rptr_holdin"
+    },
+    {
+     "x": 0,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rf_repeater_acc"
+    },
+    {
+     "x": 1,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rf_repeater_acc"
+    }
+   ],
+   "Call_Sign_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "callsign"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "callsign"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "callsign_wl"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "callsign_wl"
+    }
+   ],
+   "Tx_Power_Out_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_pwr_out"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_pwr_out"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_pwr_out_batt"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_pwr_out_batt"
+    }
+   ],
+   "m_advancedTab": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 2,
+     "h": 1,
+     "kind": "group",
+     "name": "Tx_Power_Out_group",
+     "label": "Tx Power Out"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 2,
+     "h": 2,
+     "kind": "group",
+     "name": "Time_Out_Timers_group",
+     "label": "Time Out Timers"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 2,
+     "h": 2,
+     "kind": "group",
+     "name": "Alarm_Tone_group",
+     "label": "Alarm Tone"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 2,
+     "h": 2,
+     "kind": "group",
+     "name": "Audio_Filters_group",
+     "label": "Audio Filters"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 2,
+     "h": 1,
+     "kind": "group",
+     "name": "SECURENET_group",
+     "label": "SECURENET"
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "w": 2,
+     "h": 2,
+     "kind": "group",
+     "name": "Repeater_group",
+     "label": "Repeater"
+    },
+    {
+     "x": 4,
+     "y": 2,
+     "w": 2,
+     "h": 2,
+     "kind": "group",
+     "name": "Hear_Clear_group",
+     "label": "Hear Clear"
+    },
+    {
+     "x": 4,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mrti_operation"
+    },
+    {
+     "x": 5,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mrti_operation"
+    },
+    {
+     "x": 4,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "data_polarity"
+    },
+    {
+     "x": 5,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "data_polarity"
+    },
+    {
+     "x": 4,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ptt_priority"
+    },
+    {
+     "x": 5,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ptt_priority"
+    },
+    {
+     "x": 4,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "repeater_boost"
+    },
+    {
+     "x": 5,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "repeater_boost"
+    },
+    {
+     "x": 4,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "monb4xmit"
+    },
+    {
+     "x": 5,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "monb4xmit"
+    },
+    {
+     "x": 4,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ilgl_car_siglvl"
+    },
+    {
+     "x": 5,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ilgl_car_siglvl"
+    },
+    {
+     "x": 4,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "brstat"
+    },
+    {
+     "x": 5,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "brstat"
+    },
+    {
+     "x": 8,
+     "y": 0,
+     "w": 1,
+     "h": 0,
+     "kind": "field",
+     "name": "getFieldPanel(jPanel2, null)"
+    }
+   ],
+   "Time_Out_Timers_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "line_tot"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "line_tot"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "local_tot"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "local_tot"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rptr_tot"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rptr_tot"
+    },
+    {
+     "x": 2,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mrti_tot"
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mrti_tot"
+    }
+   ],
+   "Alarm_Tone_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "alarm_air"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "alarm_air"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "alarm_wireline"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "alarm_wireline"
+    }
+   ],
+   "Audio_Filters_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "pre_emphasis"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "pre_emphasis"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "de_emphasis"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "de_emphasis"
+    },
+    {
+     "x": 2,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "hi_pass_filter"
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "hi_pass_filter"
+    }
+   ],
+   "SECURENET_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "csq_delay_time"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "csq_delay_time"
+    }
+   ],
+   "Repeater_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rptr_dod"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rptr_dod"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rptr_holdoff"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rptr_holdoff"
+    }
+   ],
+   "Hear_Clear_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "compander"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "compander"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "noise_canceller"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "noise_canceller"
+    }
+   ]
+  },
+  "groups": {
+   "Call_Sign_group": "Call Sign",
+   "Tx_Power_Out_group": "Tx Power Out",
+   "Time_Out_Timers_group": "Time Out Timers",
+   "Alarm_Tone_group": "Alarm Tone",
+   "Audio_Filters_group": "Audio Filters",
+   "SECURENET_group": "SECURENET",
+   "Repeater_group": "Repeater",
+   "Hear_Clear_group": "Hear Clear"
+  }
+ },
+ "DCUSA": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "max_deviation"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "max_deviation"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "low_speed_data"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "low_speed_data"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fade_tolerance"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fade_tolerance"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "enhanced_squelch"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "enhanced_squelch"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DCUST": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "call_sign_inter"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "call_sign_inter"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "max_deviation"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "max_deviation"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ant_relay_delay"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ant_relay_delay"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "low_speed_data"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "low_speed_data"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_fade_timer"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_fade_timer"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fade_tolerance"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fade_tolerance"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "enhanced_squelch"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "enhanced_squelch"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DDCRC": {
+  "containers": {
+   "detect1_group": [
+    {
+     "kind": "field",
+     "name": "ft1_cmd0",
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd1",
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd2",
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd3",
+     "x": 4,
+     "y": 0,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd4",
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd5",
+     "x": 2,
+     "y": 1,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd6",
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd7",
+     "x": 4,
+     "y": 1,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "biggroup1": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "detect1_group",
+     "label": "Detect"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "undetect1_group",
+     "label": "Undetect"
+    }
+   ],
+   "undetect1_group": [
+    {
+     "kind": "field",
+     "name": "ft2_cmd0",
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd1",
+     "x": 2,
+     "y": 4,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd2",
+     "x": 3,
+     "y": 4,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd3",
+     "x": 4,
+     "y": 4,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd4",
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd5",
+     "x": 2,
+     "y": 5,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd6",
+     "x": 3,
+     "y": 5,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd7",
+     "x": 4,
+     "y": 5,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "detect2_group": [
+    {
+     "kind": "field",
+     "name": "ft3_cmd0",
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd1",
+     "x": 2,
+     "y": 7,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd2",
+     "x": 3,
+     "y": 7,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd3",
+     "x": 4,
+     "y": 7,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd4",
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd5",
+     "x": 2,
+     "y": 8,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd6",
+     "x": 3,
+     "y": 8,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd7",
+     "x": 4,
+     "y": 8,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "biggroup2": [
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "detect2_group",
+     "label": "Detect"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "undetect2_group",
+     "label": "Undetect"
+    }
+   ],
+   "undetect2_group": [
+    {
+     "kind": "field",
+     "name": "ft4_cmd0",
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd1",
+     "x": 2,
+     "y": 10,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd2",
+     "x": 3,
+     "y": 10,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd3",
+     "x": 4,
+     "y": 10,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd4",
+     "x": 1,
+     "y": 11,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd5",
+     "x": 2,
+     "y": 11,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd6",
+     "x": 3,
+     "y": 11,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd7",
+     "x": 4,
+     "y": 11,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "detect3_group": [
+    {
+     "kind": "field",
+     "name": "ft5_cmd0",
+     "x": 1,
+     "y": 13,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd1",
+     "x": 2,
+     "y": 13,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd2",
+     "x": 3,
+     "y": 13,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd3",
+     "x": 4,
+     "y": 13,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd4",
+     "x": 1,
+     "y": 14,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd5",
+     "x": 2,
+     "y": 14,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd6",
+     "x": 3,
+     "y": 14,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd7",
+     "x": 4,
+     "y": 14,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "biggroup3": [
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "detect3_group",
+     "label": "Detect"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "undetect3_group",
+     "label": "Undetect"
+    }
+   ],
+   "undetect3_group": [
+    {
+     "kind": "field",
+     "name": "ft6_cmd0",
+     "x": 1,
+     "y": 16,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd1",
+     "x": 2,
+     "y": 16,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd2",
+     "x": 3,
+     "y": 16,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd3",
+     "x": 4,
+     "y": 16,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd4",
+     "x": 1,
+     "y": 17,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd5",
+     "x": 2,
+     "y": 17,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd6",
+     "x": 3,
+     "y": 17,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd7",
+     "x": 4,
+     "y": 17,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "detect4_group": [
+    {
+     "kind": "field",
+     "name": "ft7_cmd0",
+     "x": 1,
+     "y": 19,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd1",
+     "x": 2,
+     "y": 19,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd2",
+     "x": 3,
+     "y": 19,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd3",
+     "x": 4,
+     "y": 19,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd4",
+     "x": 1,
+     "y": 20,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd5",
+     "x": 2,
+     "y": 20,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd6",
+     "x": 3,
+     "y": 20,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd7",
+     "x": 4,
+     "y": 20,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "biggroup4": [
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "detect4_group",
+     "label": "Detect"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "undetect4_group",
+     "label": "Undetect"
+    }
+   ],
+   "undetect4_group": [
+    {
+     "kind": "field",
+     "name": "ft8_cmd0",
+     "x": 1,
+     "y": 22,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd1",
+     "x": 2,
+     "y": 22,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd2",
+     "x": 3,
+     "y": 22,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd3",
+     "x": 4,
+     "y": 22,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd4",
+     "x": 1,
+     "y": 23,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd5",
+     "x": 2,
+     "y": 23,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd6",
+     "x": 3,
+     "y": 23,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd7",
+     "x": 4,
+     "y": 23,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "detect5_group": [
+    {
+     "kind": "field",
+     "name": "ft9_cmd0",
+     "x": 1,
+     "y": 25,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd1",
+     "x": 2,
+     "y": 25,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd2",
+     "x": 3,
+     "y": 25,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd3",
+     "x": 4,
+     "y": 25,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd4",
+     "x": 1,
+     "y": 26,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd5",
+     "x": 2,
+     "y": 26,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd6",
+     "x": 3,
+     "y": 26,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd7",
+     "x": 4,
+     "y": 26,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "biggroup5": [
+    {
+     "x": 0,
+     "y": 13,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "detect5_group",
+     "label": "Detect"
+    },
+    {
+     "x": 0,
+     "y": 14,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "undetect5_group",
+     "label": "Undetect"
+    }
+   ],
+   "undetect5_group": [
+    {
+     "kind": "field",
+     "name": "ft10_cmd0",
+     "x": 1,
+     "y": 28,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd1",
+     "x": 2,
+     "y": 28,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd2",
+     "x": 3,
+     "y": 28,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd3",
+     "x": 4,
+     "y": 28,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd4",
+     "x": 1,
+     "y": 29,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd5",
+     "x": 2,
+     "y": 29,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd6",
+     "x": 3,
+     "y": 29,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd7",
+     "x": 4,
+     "y": 29,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "detect6_group": [
+    {
+     "kind": "field",
+     "name": "ft11_cmd0",
+     "x": 1,
+     "y": 31,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd1",
+     "x": 2,
+     "y": 31,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd2",
+     "x": 3,
+     "y": 31,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd3",
+     "x": 4,
+     "y": 31,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd4",
+     "x": 1,
+     "y": 32,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd5",
+     "x": 2,
+     "y": 32,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd6",
+     "x": 3,
+     "y": 32,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd7",
+     "x": 4,
+     "y": 32,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "biggroup6": [
+    {
+     "x": 0,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "detect6_group",
+     "label": "Detect"
+    },
+    {
+     "x": 0,
+     "y": 17,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "undetect6_group",
+     "label": "Undetect"
+    }
+   ],
+   "undetect6_group": [
+    {
+     "kind": "field",
+     "name": "ft12_cmd0",
+     "x": 1,
+     "y": 34,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd1",
+     "x": 2,
+     "y": 34,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd2",
+     "x": 3,
+     "y": 34,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd3",
+     "x": 4,
+     "y": 34,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd4",
+     "x": 1,
+     "y": 35,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd5",
+     "x": 2,
+     "y": 35,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd6",
+     "x": 3,
+     "y": 35,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd7",
+     "x": 4,
+     "y": 35,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "biggroup1",
+     "label": "+12.5 ma"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "biggroup2",
+     "label": "+5.5 ma"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "biggroup3",
+     "label": "+2.5 ma"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "biggroup4",
+     "label": "-2.5 ma"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "biggroup5",
+     "label": "-5.5 ma"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "group",
+     "name": "biggroup6",
+     "label": "-12.5 ma"
+    },
+    {
+     "x": 0,
+     "y": 96,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "detect1_group": "Detect",
+   "undetect1_group": "Undetect",
+   "detect2_group": "Detect",
+   "undetect2_group": "Undetect",
+   "detect3_group": "Detect",
+   "undetect3_group": "Undetect",
+   "detect4_group": "Detect",
+   "undetect4_group": "Undetect",
+   "detect5_group": "Detect",
+   "undetect5_group": "Undetect",
+   "detect6_group": "Detect",
+   "undetect6_group": "Undetect",
+   "biggroup1": "+12.5 ma",
+   "biggroup2": "+5.5 ma",
+   "biggroup3": "+2.5 ma",
+   "biggroup4": "-2.5 ma",
+   "biggroup5": "-5.5 ma",
+   "biggroup6": "-12.5 ma"
+  }
+ },
+ "DFULBND1": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "table",
+     "name": "block_rec"
+    },
+    {
+     "x": 0,
+     "y": 25,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DGEN": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "voice_repeat"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "voice_repeat"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "vote_priority"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "vote_priority"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "src_base_prior"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "src_base_prior"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "diu_repeat"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "diu_repeat"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 2,
+     "h": 2,
+     "kind": "group",
+     "name": "analog_group",
+     "label": "Analog"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "digital_group",
+     "label": "Digital"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "def_tx_st_addr"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "def_tx_st_addr"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ht_hdlc_address"
+    },
+    {
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ht_hdlc_address"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "analog_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ana_rep_hang"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ana_rep_hang"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ana_con_hang"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ana_con_hang"
+    }
+   ],
+   "digital_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "dig_rep_hang"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dig_rep_hang"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "dig_con_hang"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dig_con_hang"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "dig_datcon_hang"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dig_datcon_hang"
+    }
+   ]
+  },
+  "groups": {
+   "analog_group": "Analog",
+   "digital_group": "Digital"
+  }
+ },
+ "DHWCFG": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "system_type"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "system_type"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "comparator_type"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "comparator_type"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "chassis_number"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "chassis_number"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "serial_number"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "serial_number"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "comparator_name"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "comparator_name"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "battery"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "battery"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "simulcast"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "simulcast"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "simul_lt_delay"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "simul_lt_delay"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "vote_scan"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "vote_scan"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tsbk_preamble"
+    },
+    {
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tsbk_preamble"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DIFRE": {
+  "containers": {
+   "group1_group": [
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_base_freq1"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_base_freq1"
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_chn_spacing1"
+    },
+    {
+     "x": 5,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "num_chan_rx1"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_base_freq2"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_base_freq2"
+    },
+    {
+     "x": 3,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_chn_spacing2"
+    },
+    {
+     "x": 5,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "num_chan_rx2"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_base_freq3"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_base_freq3"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_chn_spacing3"
+    },
+    {
+     "x": 5,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "num_chan_rx3"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_base_freq1"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_base_freq1"
+    },
+    {
+     "x": 3,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_chn_spacing1"
+    },
+    {
+     "x": 5,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "num_chan_tx1"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_base_freq2"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_base_freq2"
+    },
+    {
+     "x": 3,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_chn_spacing2"
+    },
+    {
+     "x": 5,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "num_chan_tx2"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_base_freq3"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_base_freq3"
+    },
+    {
+     "x": 3,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_chn_spacing3"
+    },
+    {
+     "x": 5,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "num_chan_tx3"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "freq_band"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "freq_band"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 2,
+     "h": 9,
+     "kind": "group",
+     "name": "group1_group",
+     "label": ""
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "group1_group": ""
+  }
+ },
+ "DIRG": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "repeater_number"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "repeater_number"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 2,
+     "h": 1,
+     "kind": "field",
+     "name": "repeater_string"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 0,
+     "h": 1,
+     "kind": "tabs",
+     "name": "m_tabbedPane",
+     "tabs": [
+      {
+       "var": "m_basicTab",
+       "name": "basic",
+       "label": "Basic"
+      },
+      {
+       "var": "m_advancedTab",
+       "name": "advanced",
+       "label": "Advanced"
+      }
+     ]
+    },
+    {
+     "x": 0,
+     "y": 17,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "m_basicTab": [
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "serial_number"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "serial_number"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_freq"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_freq_panel"
+    },
+    {
+     "x": 2,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_number"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_number"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_freq"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_freq_panel"
+    },
+    {
+     "x": 2,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_number"
+    },
+    {
+     "x": 3,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_number"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "base_station_id"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "base_station_id"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ctrl_chan_cap"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ctrl_chan_cap"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "pccr"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "pccr"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "dispatch_cap"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dispatch_cap"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "failsft_capable"
+    },
+    {
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "failsft_capable"
+    },
+    {
+     "x": 2,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "failsoft_mod"
+    },
+    {
+     "x": 3,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "failsoft_mod"
+    },
+    {
+     "x": 0,
+     "y": 12,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "bsi_capable"
+    },
+    {
+     "x": 1,
+     "y": 12,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "bsi_capable"
+    },
+    {
+     "x": 0,
+     "y": 13,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "dfb_capable"
+    },
+    {
+     "x": 1,
+     "y": 13,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dfb_capable"
+    },
+    {
+     "x": 0,
+     "y": 14,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "secure_capable"
+    },
+    {
+     "x": 1,
+     "y": 14,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "secure_capable"
+    },
+    {
+     "x": 0,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "protect_capable"
+    },
+    {
+     "x": 1,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "protect_capable"
+    },
+    {
+     "x": 0,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "subband_capable"
+    },
+    {
+     "x": 1,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "subband_capable"
+    }
+   ],
+   "m_advancedTab": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mod_type"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mod_type"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rated_dev"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rated_dev"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "chn_spacing"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "chn_spacing"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_pwr_out"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_pwr_out"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "tx_pwr_out_batt"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "tx_pwr_out_batt"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "data_polarity"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "data_polarity"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "repeater_boost"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "repeater_boost"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "compander"
+    },
+    {
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "compander"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "noise_canceller"
+    },
+    {
+     "x": 1,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "noise_canceller"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DIRRPTRS": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "table",
+     "name": "repeater_sum"
+    },
+    {
+     "x": 0,
+     "y": 250,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DIRSITEG": {
+  "containers": {
+   "systeminformation_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "system_id"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "system_id"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "site_id"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "site_id"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "site_type"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "site_type"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "repeaters_at_site"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "repeaters_at_site"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 2,
+     "h": 4,
+     "kind": "group",
+     "name": "systeminformation_group",
+     "label": "System Information"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fss_support"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fss_support"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "min_rptr_trunk"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "min_rptr_trunk"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "token_rptr"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "token_rptr"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "connect_tone"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "connect_tone"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "access_code"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "access_code"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "voice_on_cntrl"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "voice_on_cntrl"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "max_cc_range"
+    },
+    {
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "max_cc_range"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "failsoft_mod"
+    },
+    {
+     "x": 1,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "failsoft_mod"
+    },
+    {
+     "x": 0,
+     "y": 13,
+     "w": 2,
+     "h": 2,
+     "kind": "group",
+     "name": "wirelineinterface_group",
+     "label": "Wireline Interface"
+    },
+    {
+     "x": 0,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "zc_parity"
+    },
+    {
+     "x": 1,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "zc_parity"
+    },
+    {
+     "x": 0,
+     "y": 17,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "wirelineinterface_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "astro_wl_interf"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "astro_wl_interf"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ext_tx_clock"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ext_tx_clock"
+    }
+   ]
+  },
+  "groups": {
+   "systeminformation_group": "System Information",
+   "wirelineinterface_group": "Wireline Interface"
+  }
+ },
+ "DIRSITET1": {
+  "containers": {
+   "Timeout_timers_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "item17"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "item17"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "item18"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "item18"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "item19"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "item19"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "item20"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "item20"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "item21"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "item21"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "voc_act_time"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "voc_act_time"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "pend_emrg_req"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "pend_emrg_req"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 2,
+     "h": 7,
+     "kind": "group",
+     "name": "Timeout_timers_group",
+     "label": "Timeout Timers"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "Timeout_timers_group": "Timeout Timers"
+  }
+ },
+ "DMCS": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "serial_number"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "serial_number"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mcs_date"
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mcs_date"
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mcs_time"
+    },
+    {
+     "x": 4,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mcs_time"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 8,
+     "h": 1,
+     "kind": "text",
+     "text": "User Tables"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "table",
+     "name": "mcs_entry"
+    },
+    {
+     "x": 0,
+     "y": 25,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DMODID": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "table",
+     "name": "block_rec"
+    },
+    {
+     "x": 0,
+     "y": 55,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DPORTCTL": {
+  "containers": {
+   "output_level_grp_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "output_analog"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "output_idltone"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "output_modem"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "cur_chassis_num"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "cur_chassis_num"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "port_number"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "port_type"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "port_type"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "port_alias"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "port_alias"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "link_type"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "link_type"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "in_level_diff"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "in_level_diff"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "output_level_grp_group",
+     "label": "Output Level"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "input_digital"
+    },
+    {
+     "x": 1,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "input_digital"
+    },
+    {
+     "x": 0,
+     "y": 12,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "diu_rank"
+    },
+    {
+     "x": 1,
+     "y": 12,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "diu_rank"
+    },
+    {
+     "x": 0,
+     "y": 13,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "an_link_timer"
+    },
+    {
+     "x": 1,
+     "y": 13,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "an_link_timer"
+    },
+    {
+     "x": 0,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "alt_data_site"
+    },
+    {
+     "x": 1,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "alt_data_site"
+    },
+    {
+     "x": 0,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "dssp_chassisnum"
+    },
+    {
+     "x": 1,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dssp_chassisnum"
+    },
+    {
+     "x": 0,
+     "y": 17,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "output_level_grp_group": "Output Level"
+  }
+ },
+ "DRFCFG": {
+  "containers": {
+   "antenna_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "antenna_relay"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "antenna_relay"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ant_relay_delay"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ant_relay_delay"
+    }
+   ],
+   "astro_rdlap_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rdlap_repeat"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rdlap_repeat"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rdlap_wl_dod"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rdlap_wl_dod"
+    }
+   ],
+   "securenet_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_fade_timer"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_fade_timer"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fade_eom_timer"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fade_eom_timer"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "repeater_oper"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "repeater_oper"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fast_keyup"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fast_keyup"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "max_deviation"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "max_deviation"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "car_malf_tot"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "car_malf_tot"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "low_speed_data"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "low_speed_data"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "antenna_group",
+     "label": "Antenna"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "call_sign_inter"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "call_sign_inter"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "last_active_chn"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "last_active_chn"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "startup_chn"
+    },
+    {
+     "x": 1,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "startup_chn"
+    },
+    {
+     "x": 0,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fade_tolerance"
+    },
+    {
+     "x": 1,
+     "y": 11,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fade_tolerance"
+    },
+    {
+     "x": 0,
+     "y": 12,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "astro_rdlap_group",
+     "label": "PACKET DATA"
+    },
+    {
+     "x": 0,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "simul_tx_filter"
+    },
+    {
+     "x": 1,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "simul_tx_filter"
+    },
+    {
+     "x": 0,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "simulcast_pl_rb"
+    },
+    {
+     "x": 1,
+     "y": 16,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "simulcast_pl_rb"
+    },
+    {
+     "x": 0,
+     "y": 18,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "securenet_group",
+     "label": "Securenet"
+    },
+    {
+     "x": 0,
+     "y": 17,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "enhanced_squelch"
+    },
+    {
+     "x": 1,
+     "y": 17,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "enhanced_squelch"
+    },
+    {
+     "x": 0,
+     "y": 21,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "antenna_group": "Antenna",
+   "astro_rdlap_group": "PACKET DATA",
+   "securenet_group": "Securenet"
+  }
+ },
+ "DSCANL": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "scan_at_reset"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "scan_at_reset"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "priority_chnl"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "priority_chnl"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "float_priority"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "float_priority"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "channel_marking"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "channel_marking"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "scan_delay"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "scan_delay"
+    },
+    {
+     "x": 2,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "pri_scan_delay"
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "pri_scan_delay"
+    },
+    {
+     "x": 2,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "scan_sample"
+    },
+    {
+     "x": 3,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "scan_sample"
+    },
+    {
+     "x": 2,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_qualify_tm"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_qualify_tm"
+    },
+    {
+     "x": 2,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "resume_scan_tm"
+    },
+    {
+     "x": 3,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "resume_scan_tm"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 1,
+     "h": 1,
+     "kind": "table",
+     "name": "scan_chnl_list"
+    },
+    {
+     "x": 0,
+     "y": 200,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DSTCG": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "serial_number"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "serial_number"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "station_name"
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "station_name"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "hw_platform"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "hw_platform"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "system_type"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "system_type"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "modulation"
+    },
+    {
+     "x": 4,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "modulation"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_freq_band"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_freq_band"
+    },
+    {
+     "x": 3,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "pa_freq_band"
+    },
+    {
+     "x": 4,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "pa_freq_band"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_freq_band2"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_freq_band2"
+    },
+    {
+     "x": 3,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ir_freq_band"
+    },
+    {
+     "x": 4,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ir_freq_band"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "pa_rated"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "pa_rated"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "power_supply"
+    },
+    {
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "power_supply"
+    },
+    {
+     "x": 3,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "battery_type"
+    },
+    {
+     "x": 4,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "battery_type"
+    },
+    {
+     "x": 0,
+     "y": 10,
+     "w": 5,
+     "h": 5,
+     "kind": "group",
+     "name": "options_group",
+     "label": "Options"
+    },
+    {
+     "x": 0,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "options_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "wireline"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "wireline"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "wildcard_oper"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "wildcard_oper"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ref_selection"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ref_selection"
+    },
+    {
+     "x": 2,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "simulcast_oper"
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "simulcast_oper"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "multi_coded_sq"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "multi_coded_sq"
+    },
+    {
+     "x": 2,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mrti_interface"
+    },
+    {
+     "x": 3,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mrti_interface"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "scan_rcvr_opt"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "scan_rcvr_opt"
+    },
+    {
+     "x": 2,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "site_number"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "site_number"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ext_wattmeter"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ext_wattmeter"
+    },
+    {
+     "x": 2,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "main_standby"
+    },
+    {
+     "x": 3,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "main_standby"
+    }
+   ]
+  },
+  "groups": {
+   "options_group": "Options"
+  }
+ },
+ "DTRC": {
+  "containers": {
+   "guardtone_group": [
+    {
+     "kind": "field",
+     "name": "ft0_cmd0",
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft0_cmd1",
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft0_cmd2",
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft0_cmd3",
+     "x": 4,
+     "y": 0,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft0_cmd4",
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft0_cmd5",
+     "x": 2,
+     "y": 1,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft0_cmd6",
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft0_cmd7",
+     "x": 4,
+     "y": 1,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft1_group": [
+    {
+     "kind": "field",
+     "name": "ft1_cmd0",
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd1",
+     "x": 2,
+     "y": 4,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd2",
+     "x": 3,
+     "y": 4,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd3",
+     "x": 4,
+     "y": 4,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd4",
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd5",
+     "x": 2,
+     "y": 5,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd6",
+     "x": 3,
+     "y": 5,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft1_cmd7",
+     "x": 4,
+     "y": 5,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft2_group": [
+    {
+     "kind": "field",
+     "name": "ft2_cmd0",
+     "x": 1,
+     "y": 8,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd1",
+     "x": 2,
+     "y": 8,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd2",
+     "x": 3,
+     "y": 8,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd3",
+     "x": 4,
+     "y": 8,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd4",
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd5",
+     "x": 2,
+     "y": 9,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd6",
+     "x": 3,
+     "y": 9,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft2_cmd7",
+     "x": 4,
+     "y": 9,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft3_group": [
+    {
+     "kind": "field",
+     "name": "ft3_cmd0",
+     "x": 1,
+     "y": 12,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd1",
+     "x": 2,
+     "y": 12,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd2",
+     "x": 3,
+     "y": 12,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd3",
+     "x": 4,
+     "y": 12,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd4",
+     "x": 1,
+     "y": 13,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd5",
+     "x": 2,
+     "y": 13,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd6",
+     "x": 3,
+     "y": 13,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft3_cmd7",
+     "x": 4,
+     "y": 13,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft4_group": [
+    {
+     "kind": "field",
+     "name": "ft4_cmd0",
+     "x": 1,
+     "y": 16,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd1",
+     "x": 2,
+     "y": 16,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd2",
+     "x": 3,
+     "y": 16,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd3",
+     "x": 4,
+     "y": 16,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd4",
+     "x": 1,
+     "y": 17,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd5",
+     "x": 2,
+     "y": 17,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd6",
+     "x": 3,
+     "y": 17,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft4_cmd7",
+     "x": 4,
+     "y": 17,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft5_group": [
+    {
+     "kind": "field",
+     "name": "ft5_cmd0",
+     "x": 1,
+     "y": 20,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd1",
+     "x": 2,
+     "y": 20,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd2",
+     "x": 3,
+     "y": 20,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd3",
+     "x": 4,
+     "y": 20,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd4",
+     "x": 1,
+     "y": 21,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd5",
+     "x": 2,
+     "y": 21,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd6",
+     "x": 3,
+     "y": 21,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft5_cmd7",
+     "x": 4,
+     "y": 21,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft6_group": [
+    {
+     "kind": "field",
+     "name": "ft6_cmd0",
+     "x": 1,
+     "y": 24,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd1",
+     "x": 2,
+     "y": 24,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd2",
+     "x": 3,
+     "y": 24,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd3",
+     "x": 4,
+     "y": 24,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd4",
+     "x": 1,
+     "y": 25,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd5",
+     "x": 2,
+     "y": 25,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd6",
+     "x": 3,
+     "y": 25,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft6_cmd7",
+     "x": 4,
+     "y": 25,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft7_group": [
+    {
+     "kind": "field",
+     "name": "ft7_cmd0",
+     "x": 1,
+     "y": 28,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd1",
+     "x": 2,
+     "y": 28,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd2",
+     "x": 3,
+     "y": 28,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd3",
+     "x": 4,
+     "y": 28,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd4",
+     "x": 1,
+     "y": 29,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd5",
+     "x": 2,
+     "y": 29,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd6",
+     "x": 3,
+     "y": 29,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft7_cmd7",
+     "x": 4,
+     "y": 29,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft8_group": [
+    {
+     "kind": "field",
+     "name": "ft8_cmd0",
+     "x": 1,
+     "y": 32,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd1",
+     "x": 2,
+     "y": 32,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd2",
+     "x": 3,
+     "y": 32,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd3",
+     "x": 4,
+     "y": 32,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd4",
+     "x": 1,
+     "y": 33,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd5",
+     "x": 2,
+     "y": 33,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd6",
+     "x": 3,
+     "y": 33,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft8_cmd7",
+     "x": 4,
+     "y": 33,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft9_group": [
+    {
+     "kind": "field",
+     "name": "ft9_cmd0",
+     "x": 1,
+     "y": 36,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd1",
+     "x": 2,
+     "y": 36,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd2",
+     "x": 3,
+     "y": 36,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd3",
+     "x": 4,
+     "y": 36,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd4",
+     "x": 1,
+     "y": 37,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd5",
+     "x": 2,
+     "y": 37,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd6",
+     "x": 3,
+     "y": 37,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft9_cmd7",
+     "x": 4,
+     "y": 37,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft10_group": [
+    {
+     "kind": "field",
+     "name": "ft10_cmd0",
+     "x": 1,
+     "y": 40,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd1",
+     "x": 2,
+     "y": 40,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd2",
+     "x": 3,
+     "y": 40,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd3",
+     "x": 4,
+     "y": 40,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd4",
+     "x": 1,
+     "y": 41,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd5",
+     "x": 2,
+     "y": 41,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd6",
+     "x": 3,
+     "y": 41,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft10_cmd7",
+     "x": 4,
+     "y": 41,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft11_group": [
+    {
+     "kind": "field",
+     "name": "ft11_cmd0",
+     "x": 1,
+     "y": 44,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd1",
+     "x": 2,
+     "y": 44,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd2",
+     "x": 3,
+     "y": 44,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd3",
+     "x": 4,
+     "y": 44,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd4",
+     "x": 1,
+     "y": 45,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd5",
+     "x": 2,
+     "y": 45,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd6",
+     "x": 3,
+     "y": 45,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft11_cmd7",
+     "x": 4,
+     "y": 45,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft12_group": [
+    {
+     "kind": "field",
+     "name": "ft12_cmd0",
+     "x": 1,
+     "y": 48,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd1",
+     "x": 2,
+     "y": 48,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd2",
+     "x": 3,
+     "y": 48,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd3",
+     "x": 4,
+     "y": 48,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd4",
+     "x": 1,
+     "y": 49,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd5",
+     "x": 2,
+     "y": 49,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd6",
+     "x": 3,
+     "y": 49,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft12_cmd7",
+     "x": 4,
+     "y": 49,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft13_group": [
+    {
+     "kind": "field",
+     "name": "ft13_cmd0",
+     "x": 1,
+     "y": 52,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft13_cmd1",
+     "x": 2,
+     "y": 52,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft13_cmd2",
+     "x": 3,
+     "y": 52,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft13_cmd3",
+     "x": 4,
+     "y": 52,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft13_cmd4",
+     "x": 1,
+     "y": 53,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft13_cmd5",
+     "x": 2,
+     "y": 53,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft13_cmd6",
+     "x": 3,
+     "y": 53,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft13_cmd7",
+     "x": 4,
+     "y": 53,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft14_group": [
+    {
+     "kind": "field",
+     "name": "ft14_cmd0",
+     "x": 1,
+     "y": 56,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft14_cmd1",
+     "x": 2,
+     "y": 56,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft14_cmd2",
+     "x": 3,
+     "y": 56,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft14_cmd3",
+     "x": 4,
+     "y": 56,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft14_cmd4",
+     "x": 1,
+     "y": 57,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft14_cmd5",
+     "x": 2,
+     "y": 57,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft14_cmd6",
+     "x": 3,
+     "y": 57,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft14_cmd7",
+     "x": 4,
+     "y": 57,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft15_group": [
+    {
+     "kind": "field",
+     "name": "ft15_cmd0",
+     "x": 1,
+     "y": 60,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft15_cmd1",
+     "x": 2,
+     "y": 60,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft15_cmd2",
+     "x": 3,
+     "y": 60,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft15_cmd3",
+     "x": 4,
+     "y": 60,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft15_cmd4",
+     "x": 1,
+     "y": 61,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft15_cmd5",
+     "x": 2,
+     "y": 61,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft15_cmd6",
+     "x": 3,
+     "y": 61,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft15_cmd7",
+     "x": 4,
+     "y": 61,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft16_group": [
+    {
+     "kind": "field",
+     "name": "ft16_cmd0",
+     "x": 1,
+     "y": 64,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft16_cmd1",
+     "x": 2,
+     "y": 64,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft16_cmd2",
+     "x": 3,
+     "y": 64,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft16_cmd3",
+     "x": 4,
+     "y": 64,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft16_cmd4",
+     "x": 1,
+     "y": 65,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft16_cmd5",
+     "x": 2,
+     "y": 65,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft16_cmd6",
+     "x": 3,
+     "y": 65,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft16_cmd7",
+     "x": 4,
+     "y": 65,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "ft17_group": [
+    {
+     "kind": "field",
+     "name": "ft17_cmd0",
+     "x": 1,
+     "y": 68,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft17_cmd1",
+     "x": 2,
+     "y": 68,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft17_cmd2",
+     "x": 3,
+     "y": 68,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft17_cmd3",
+     "x": 4,
+     "y": 68,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft17_cmd4",
+     "x": 1,
+     "y": 69,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft17_cmd5",
+     "x": 2,
+     "y": 69,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft17_cmd6",
+     "x": 3,
+     "y": 69,
+     "w": 1,
+     "h": 1
+    },
+    {
+     "kind": "field",
+     "name": "ft17_cmd7",
+     "x": 4,
+     "y": 69,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 4,
+     "h": 2,
+     "kind": "field",
+     "name": "guardtone_group"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft1_group",
+     "label": "FT1 - 2050 Hz"
+    },
+    {
+     "x": 0,
+     "y": 16,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft2_group",
+     "label": "FT2 - 1950 Hz"
+    },
+    {
+     "x": 0,
+     "y": 24,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft3_group",
+     "label": "FT3 - 1850 Hz"
+    },
+    {
+     "x": 0,
+     "y": 32,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft4_group",
+     "label": "FT4 - 1750 Hz"
+    },
+    {
+     "x": 0,
+     "y": 40,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft5_group",
+     "label": "FT5 - 1650 Hz"
+    },
+    {
+     "x": 0,
+     "y": 48,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft6_group",
+     "label": "FT6 - 1550 Hz"
+    },
+    {
+     "x": 0,
+     "y": 56,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft7_group",
+     "label": "FT7 - 1450 Hz"
+    },
+    {
+     "x": 0,
+     "y": 64,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft8_group",
+     "label": "FT8 - 1350 Hz"
+    },
+    {
+     "x": 0,
+     "y": 72,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft9_group",
+     "label": "FT9 - 1250 Hz"
+    },
+    {
+     "x": 0,
+     "y": 80,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft10_group",
+     "label": "FT10 - 1150 Hz"
+    },
+    {
+     "x": 0,
+     "y": 88,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft11_group",
+     "label": "FT11 - 1050 Hz"
+    },
+    {
+     "x": 0,
+     "y": 96,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft12_group",
+     "label": "FT12 - 950 Hz"
+    },
+    {
+     "x": 0,
+     "y": 104,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft13_group",
+     "label": "FT13 - 850 Hz"
+    },
+    {
+     "x": 0,
+     "y": 112,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft14_group",
+     "label": "FT14 - 750 Hz"
+    },
+    {
+     "x": 0,
+     "y": 120,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft15_group",
+     "label": "FT15 - 650 Hz"
+    },
+    {
+     "x": 0,
+     "y": 128,
+     "w": 4,
+     "h": 2,
+     "kind": "group",
+     "name": "ft16_group",
+     "label": "FT16 - 550 Hz (for station control software release R14.06.00 and later)"
+    },
+    {
+     "x": 0,
+     "y": 136,
+     "w": 2,
+     "h": 8,
+     "kind": "group",
+     "name": "ft17_group",
+     "label": "FT17 - 450 Hz (for station control software release R14.06.00 and later)"
+    },
+    {
+     "x": 0,
+     "y": 144,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "ft1_group": "FT1 - 2050 Hz",
+   "ft2_group": "FT2 - 1950 Hz",
+   "ft3_group": "FT3 - 1850 Hz",
+   "ft4_group": "FT4 - 1750 Hz",
+   "ft5_group": "FT5 - 1650 Hz",
+   "ft6_group": "FT6 - 1550 Hz",
+   "ft7_group": "FT7 - 1450 Hz",
+   "ft8_group": "FT8 - 1350 Hz",
+   "ft9_group": "FT9 - 1250 Hz",
+   "ft10_group": "FT10 - 1150 Hz",
+   "ft11_group": "FT11 - 1050 Hz",
+   "ft12_group": "FT12 - 950 Hz",
+   "ft13_group": "FT13 - 850 Hz",
+   "ft14_group": "FT14 - 750 Hz",
+   "ft15_group": "FT15 - 650 Hz",
+   "ft16_group": "FT16 - 550 Hz (for station control software release R14.06.00 and later)",
+   "ft17_group": "FT17 - 450 Hz (for station control software release R14.06.00 and later)"
+  }
+ },
+ "DTRKOTAC": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "failsoft"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "failsoft"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "failsoft_mode"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "failsoft_mode"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "channel_no"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "channel_no"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "vote_priority"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "vote_priority"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {}
+ },
+ "DVOICE": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "vote_sample"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "vote_sample"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "first_vote_set"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "first_vote_set"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "analog_vote_group",
+     "label": "Analog Vote"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "vote_switch"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "vote_switch"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "line_trans_set"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "line_trans_set"
+    },
+    {
+     "x": 0,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "vote_hyst"
+    },
+    {
+     "x": 1,
+     "y": 7,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "vote_hyst"
+    },
+    {
+     "x": 0,
+     "y": 8,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "analog_vote_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "voicehold_op"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "first_vote_hld"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "vote_hold"
+    }
+   ]
+  },
+  "groups": {
+   "analog_vote_group": "Analog Vote"
+  }
+ },
+ "DWCINPUT": {
+  "containers": {
+   "gui_channel_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "channel_group"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "channel_group"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "chnl_act_level"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "chnl_act_level"
+    }
+   ],
+   "gui_act_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "act_group"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "act_group"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "act_act_level"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "act_act_level"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "gui_channel_group",
+     "label": "Channel"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "gui_act_group",
+     "label": "Access Code Table"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dummy_string"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "table",
+     "name": "wc_input_rec"
+    },
+    {
+     "x": 0,
+     "y": 20,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "gui_channel_group": "Channel",
+   "gui_act_group": "Access Code Table"
+  }
+ },
+ "DWCOUTPUT": {
+  "containers": {
+   "gui_act_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "act_group"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "act_group"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "act_act_level"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "act_act_level"
+    }
+   ],
+   "gui_channel_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "channel_group"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "channel_group"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "chnl_act_level"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "chnl_act_level"
+    }
+   ],
+   "gui_mcs_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mcs_group"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mcs_group"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "mcs_act_level"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "mcs_act_level"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "gui_channel_group",
+     "label": "Channel"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "gui_mcs_group",
+     "label": "Multi-Coded Squelsh"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "gui_act_group",
+     "label": "Access Code Table"
+    },
+    {
+     "x": 1,
+     "y": 9,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dummy_string"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "table",
+     "name": "wc_output_rec"
+    },
+    {
+     "x": 0,
+     "y": 20,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "gui_channel_group": "Channel",
+   "gui_mcs_group": "Multi-Coded Squelsh",
+   "gui_act_group": "Access Code Table"
+  }
+ },
+ "DWCSTATE": {
+  "containers": {
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "description"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "description"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "form_title"
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "jump_to_number"
+    },
+    {
+     "x": 5,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "jump_to_number"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 6,
+     "h": 3,
+     "kind": "group",
+     "name": "state_and_cond_group",
+     "label": "State And Condition Settings"
+    },
+    {
+     "x": 0,
+     "y": 15,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ],
+   "state_and_cond_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "state_1"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "state_1"
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "state_1_value"
+    },
+    {
+     "x": 4,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "condition_1"
+    },
+    {
+     "x": 4,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "condition_1"
+    },
+    {
+     "x": 6,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "state_2"
+    },
+    {
+     "x": 6,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "state_2"
+    },
+    {
+     "x": 8,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "state_2_value"
+    },
+    {
+     "x": 10,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "condition_2"
+    },
+    {
+     "x": 10,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "condition_2"
+    },
+    {
+     "x": 12,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "state_3"
+    },
+    {
+     "x": 12,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "state_3"
+    },
+    {
+     "x": 14,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "state_3_value"
+    }
+   ]
+  },
+  "groups": {
+   "state_and_cond_group": "State And Condition Settings"
+  }
+ },
+ "DWIREL": {
+  "containers": {
+   "comparator_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "astro_spectra"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "astro_spectra"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fallback_cabin"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fallback_cabin"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "fallback_timer"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "fallback_timer"
+    }
+   ],
+   "status_tone_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "status_tone"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "status_tone"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "status_tone_frq"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "status_tone_frq"
+    }
+   ],
+   "wireline_squelch_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "wl_squelch"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "wl_squelch"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "wlsq_threshold"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "wlsq_threshold"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "wlsq_hysteresis"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "wlsq_hysteresis"
+    }
+   ],
+   "trc_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "hlgt_frequency"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "hlgt_frequency"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "auto_level_ctrl"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "auto_level_ctrl"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "wl_tx_notch"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "wl_tx_notch"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "wl_rx_notch"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "wl_rx_notch"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "llgt_undetect"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "llgt_undetect"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "trc_detection_algorithm"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "trc_detection_algorithm"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "function_tones_detected"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "function_tones_detected"
+    }
+   ],
+   "astro_group": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "astro_wl_interf"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "astro_wl_interf"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "alm"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "alm"
+    },
+    {
+     "x": 0,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "dlm"
+    },
+    {
+     "x": 1,
+     "y": 2,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "dlm"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "ext_tx_clock"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "ext_tx_clock"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "modem_rx_level"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "modem_rx_level"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "modem_tx_level"
+    },
+    {
+     "x": 1,
+     "y": 5,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "modem_tx_level"
+    },
+    {
+     "x": 0,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rt_rt_config"
+    },
+    {
+     "x": 1,
+     "y": 6,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rt_rt_config"
+    }
+   ],
+   "m_wirelineTab": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "wireline_oper"
+    },
+    {
+     "x": 1,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "wireline_oper"
+    },
+    {
+     "x": 2,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "con_priority"
+    },
+    {
+     "x": 3,
+     "y": 0,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "con_priority"
+    },
+    {
+     "x": 0,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "remote_control"
+    },
+    {
+     "x": 1,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "remote_control"
+    },
+    {
+     "x": 2,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "trc_input"
+    },
+    {
+     "x": 3,
+     "y": 1,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "trc_input"
+    },
+    {
+     "x": 0,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "out_link_timer"
+    },
+    {
+     "x": 1,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "out_link_timer"
+    },
+    {
+     "x": 2,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "rx_secure_to_wl"
+    },
+    {
+     "x": 3,
+     "y": 3,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "rx_secure_to_wl"
+    },
+    {
+     "x": 0,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "label",
+     "name": "equalization"
+    },
+    {
+     "x": 1,
+     "y": 4,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "equalization"
+    },
+    {
+     "x": 0,
+     "y": 5,
+     "w": 2,
+     "h": 4,
+     "kind": "group",
+     "name": "comparator_group",
+     "label": "Comparator"
+    },
+    {
+     "x": 0,
+     "y": 9,
+     "w": 2,
+     "h": 3,
+     "kind": "group",
+     "name": "status_tone_group",
+     "label": "Status Tone"
+    },
+    {
+     "x": 0,
+     "y": 12,
+     "w": 2,
+     "h": 5,
+     "kind": "group",
+     "name": "wireline_squelch_group",
+     "label": "Wireline Squelch"
+    }
+   ],
+   "m_trcTab": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 1,
+     "kind": "group",
+     "name": "trc_group",
+     "label": "TRC"
+    }
+   ],
+   "m_astroTab": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 1,
+     "kind": "group",
+     "name": "astro_group",
+     "label": "ASTRO"
+    }
+   ],
+   "root": [
+    {
+     "x": 0,
+     "y": 0,
+     "w": 0,
+     "h": 1,
+     "kind": "tabs",
+     "name": "m_tabbedPane",
+     "tabs": [
+      {
+       "var": "m_wirelineTab",
+       "name": "wireline",
+       "label": "Wireline"
+      },
+      {
+       "var": "m_trcTab",
+       "name": "trc",
+       "label": "TRC"
+      },
+      {
+       "var": "m_astroTab",
+       "name": "astro",
+       "label": "Astro"
+      }
+     ]
+    },
+    {
+     "x": 0,
+     "y": 17,
+     "w": 1,
+     "h": 1,
+     "kind": "field",
+     "name": "buttonPanel"
+    }
+   ]
+  },
+  "groups": {
+   "comparator_group": "Comparator",
+   "status_tone_group": "Status Tone",
+   "wireline_squelch_group": "Wireline Squelch",
+   "trc_group": "TRC",
+   "astro_group": "ASTRO"
+  }
+ }
+}

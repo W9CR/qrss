@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qrss"
+description = "QBS - a cross-platform codeplug editor and service tool for conventional Motorola Quantar stations"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "AGPL-3.0-or-later"}
+authors = [{name = "Bryan Fields, W9CR", email = "bryan@bryanfields.net"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: X11 Applications :: Qt",
+    "Intended Audience :: Telecommunications Industry",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Ham Radio",
+]
+dependencies = [
+    "PySide6>=6.5",
+    "pyserial>=3.5",
+    "pyobjc-framework-Cocoa>=9.0; sys_platform == 'darwin'",
+]
+dynamic = ["version"]
+
+[project.scripts]
+qbs = "qrss.app:main"
+
+[project.urls]
+Homepage = "https://github.com/W9CR/qrss"
+
+[tool.setuptools]
+packages = ["qrss"]
+
+[tool.setuptools.dynamic]
+version = {attr = "qrss.__version__"}
+
+[tool.setuptools.package-data]
+qrss = ["data/*"]

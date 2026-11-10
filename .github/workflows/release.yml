@@ -1,0 +1,108 @@
+name: release
+
+# Push a tag that matches qrss/__init__.py, e.g. v26.11.09a1, and this builds the
+# macOS, Linux and Windows packages and attaches them to a draft GitHub release.
+# The "Run workflow" button builds the same artifacts without making a release.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.v.outputs.version }}
+      prerelease: ${{ steps.v.outputs.prerelease }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: v
+        run: |
+          V=$(python3 -c "import sys; sys.path.insert(0,'release'); import buildinfo; print(buildinfo.parse()['display'])")
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          case "$V" in
+            *a[0-9]*|*b[0-9]*) PRE=true ;;
+            *)                 PRE=false ;;
+          esac
+          echo "prerelease=$PRE" >> "$GITHUB_OUTPUT"
+          if [ "$GITHUB_REF_TYPE" = "tag" ] && [ "v$V" != "$GITHUB_REF_NAME" ]; then
+            echo "tag $GITHUB_REF_NAME does not match qrss/__init__.py ($V)" >&2
+            exit 1
+          fi
+
+  macos:
+    needs: check
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pyinstaller
+      - run: sh release/build-macos.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macos
+          path: release/out/*.dmg
+          if-no-files-found: error
+
+  linux:
+    needs: check
+    # The bundle is tied to the build host's glibc; build on the oldest
+    # distribution worth supporting.
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pyinstaller
+      - run: sh release/build-linux.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux
+          path: |
+            release/out/*.AppImage
+            release/out/*.deb
+            release/out/*.tar.gz
+          if-no-files-found: error
+
+  windows:
+    needs: check
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt pyinstaller
+      - run: choco install innosetup -y --no-progress
+      - run: pwsh -NoProfile -File release/build-windows.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          path: |
+            release/out/*-setup.exe
+            release/out/QBS-*-win64.zip
+          if-no-files-found: error
+
+  publish:
+    needs: [check, macos, linux, windows]
+    if: github.ref_type == 'tag'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: QBS ${{ needs.check.outputs.version }}
+          files: artifacts/*
+          draft: true
+          prerelease: ${{ needs.check.outputs.prerelease == 'true' }}
+          generate_release_notes: true

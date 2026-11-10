@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=QBS
+GenericName=Quantar Programmer
+Comment=Codeplug editor and service tool for Motorola Quantar stations
+Exec=qbs %f
+TryExec=qbs
+Icon=qbs
+Terminal=false
+Categories=Utility;HamRadio;
+Keywords=Quantar;Quantro;Motorola;radio;codeplug;repeater;
+StartupWMClass=QBS

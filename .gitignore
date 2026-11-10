@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# build output (release/build-*.sh, .ps1)
+release/out/
+dist/
+build/
+*.icns
+*.ico
+
+# codeplug archives and station backups are user data
+*.qbk

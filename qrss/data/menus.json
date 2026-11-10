@@ -1,0 +1,298 @@
+{
+ "CONVENTIONAL": [
+  {
+   "form": "DSTCG",
+   "label": "Hardware Configuration"
+  },
+  {
+   "form": "DWIREL",
+   "label": "Wireline Configuration"
+  },
+  {
+   "form": "DACC",
+   "label": "Access Code Table"
+  },
+  {
+   "form": "DMCS",
+   "label": "Multi-Coded Squelch Table"
+  },
+  {
+   "form": "DCHN",
+   "label": "Channel Information"
+  },
+  {
+   "form": "DTRC",
+   "label": "TRC Command Table"
+  },
+  {
+   "form": "DDCRC",
+   "label": "DC Command Table"
+  },
+  {
+   "form": "DRFCFG",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "DSCANL",
+   "label": "Scan List Configuration"
+  },
+  {
+   "form": "DWCINPUT",
+   "label": "WildCard Input"
+  },
+  {
+   "form": "DWCOUTPUT",
+   "label": "WildCard Output"
+  },
+  {
+   "form": "DWCSTATE",
+   "label": "WildCard Tables"
+  }
+ ],
+ "TRUNKING (6809 SMARTZONE)": [
+  {
+   "form": "DSTCG",
+   "label": "Hardware Configuration"
+  },
+  {
+   "form": "DWIREL",
+   "label": "Wireline Configuration"
+  },
+  {
+   "form": "DACCT",
+   "label": "Access Code Table"
+  },
+  {
+   "form": "DCHN",
+   "label": "Channel Information"
+  },
+  {
+   "form": "DRFCFG",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "D6809T",
+   "label": "6809 Trunking Interface"
+  },
+  {
+   "form": "DWCINPUT",
+   "label": "WildCard Input"
+  },
+  {
+   "form": "DWCOUTPUT",
+   "label": "WildCard Output"
+  },
+  {
+   "form": "DWCSTATE",
+   "label": "WildCard Tables"
+  }
+ ],
+ "TRUNKING (6809 SMARTNET)": [
+  {
+   "form": "DSTCG",
+   "label": "Hardware Configuration"
+  },
+  {
+   "form": "DWIREL",
+   "label": "Wireline Configuration"
+  },
+  {
+   "form": "DACCT",
+   "label": "Access Code Table"
+  },
+  {
+   "form": "DCHN",
+   "label": "Channel Information"
+  },
+  {
+   "form": "DRFCFG",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "D6809T",
+   "label": "6809 Trunking Interface"
+  },
+  {
+   "form": "DWCINPUT",
+   "label": "WildCard Input"
+  },
+  {
+   "form": "DWCOUTPUT",
+   "label": "WildCard Output"
+  },
+  {
+   "form": "DWCSTATE",
+   "label": "WildCard Tables"
+  }
+ ],
+ "INTELLIREPEATER 2.0.3/2.7E": [
+  {
+   "form": "DSTCG",
+   "label": "Hardware Configuration"
+  },
+  {
+   "form": "DIFRE",
+   "label": "Site Frequency"
+  },
+  {
+   "form": "DIRSITEG",
+   "label": "Site General"
+  },
+  {
+   "form": "DIRSITET1",
+   "label": "Site Timer"
+  },
+  {
+   "form": "DFULBND1",
+   "label": "Full/Sub Band Partition"
+  },
+  {
+   "form": "DMODID",
+   "label": "Radio Modulation Partition"
+  },
+  {
+   "form": "DIRG",
+   "label": "Repeater Information"
+  },
+  {
+   "form": "DIRRPTRS",
+   "label": "Repeater Summary"
+  },
+  {
+   "form": "DADV",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "DCUSA",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "DCUST",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "DWCINPUT",
+   "label": "WildCard Input"
+  },
+  {
+   "form": "DWCOUTPUT",
+   "label": "WildCard Output"
+  },
+  {
+   "form": "DWCSTATE",
+   "label": "WildCard Tables"
+  }
+ ],
+ "INTELLIREPEATER 3.0/3.5/4.1": [
+  {
+   "form": "DSTCG",
+   "label": "Hardware Configuration"
+  },
+  {
+   "form": "DIFRE",
+   "label": "Site Frequency"
+  },
+  {
+   "form": "DIRSITEG",
+   "label": "Site General"
+  },
+  {
+   "form": "DIRSITET1",
+   "label": "Site Timer"
+  },
+  {
+   "form": "DFULBND1",
+   "label": "Full/Sub Band Partition"
+  },
+  {
+   "form": "DMODID",
+   "label": "Radio Modulation Partition"
+  },
+  {
+   "form": "DIRG",
+   "label": "Repeater Information"
+  },
+  {
+   "form": "DIRRPTRS",
+   "label": "Repeater Summary"
+  },
+  {
+   "form": "DADV",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "DCUSA",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "DCUST",
+   "label": "RF Configuration"
+  },
+  {
+   "form": "DWCINPUT",
+   "label": "WildCard Input"
+  },
+  {
+   "form": "DWCOUTPUT",
+   "label": "WildCard Output"
+  },
+  {
+   "form": "DWCSTATE",
+   "label": "WildCard Tables"
+  }
+ ],
+ "DSSIII": [
+  {
+   "form": "DSTCG",
+   "label": "Hardware Configuration"
+  },
+  {
+   "form": "DCHN3",
+   "label": "Channel Information"
+  }
+ ],
+ "QUANTAR DATA BASE STATION": [
+  {
+   "form": "DSTCG",
+   "label": "Hardware Configuration"
+  },
+  {
+   "form": "DCHN",
+   "label": "Channel Information"
+  },
+  {
+   "form": "DWCINPUT",
+   "label": "WildCard Input"
+  },
+  {
+   "form": "DWCOUTPUT",
+   "label": "WildCard Output"
+  },
+  {
+   "form": "DWCSTATE",
+   "label": "WildCard Tables"
+  }
+ ],
+ "COMPARATOR": [
+  {
+   "form": "DHWCFG",
+   "label": "Hardware Configuration"
+  },
+  {
+   "form": "DGEN",
+   "label": "Conventional System"
+  },
+  {
+   "form": "DTRKOTAC",
+   "label": "Smartzone System"
+  },
+  {
+   "form": "DVOICE",
+   "label": "Analog Voting"
+  },
+  {
+   "form": "DPORTCTL",
+   "label": "Port Control"
+  }
+ ]
+}

@@ -1,0 +1,1658 @@
+{
+"21002": {
+"cmd": "DOCSS",
+"reply": null,
+"pre": "]-O",
+"post": "CSS:"
+},
+"25001": {
+"cmd": "DODEBUG",
+"reply": null,
+"pre": "]-O",
+"post": "DEBUG>"
+},
+"21003": {
+"cmd": "EXIT",
+"reply": null,
+"pre": "CSS:",
+"post": "]-O"
+},
+"21020": {
+"cmd": "GET ADDR IP",
+"reply": "IP ADDR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21021": {
+"cmd": "GET ADDR PHYS",
+"reply": "PHYS ADDR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21022": {
+"cmd": "SET ADDR IP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21023": {
+"cmd": "SET ADDR PHYS [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21024": {
+"cmd": "RESTART",
+"reply": "[%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21025": {
+"cmd": " GET ADDR NETMASK",
+"reply": "SUBNET MASK = [%s]",
+"pre": "CSS:",
+"post": "CSS:"
+},
+"21026": {
+"cmd": " GET ADDR GATEWAY",
+"reply": "DEF GATEWAY = [%s]",
+"pre": "CSS:",
+"post": "CSS:"
+},
+"21027": {
+"cmd": "SET ADDR NETMASK [%s]",
+"reply": null,
+"pre": "CSS:",
+"post": "CSS:"
+},
+"21028": {
+"cmd": "SET ADDR GATEWAY [%s]",
+"reply": null,
+"pre": "CSS:",
+"post": "CSS:"
+},
+"21029": {
+"cmd": "GET BOX NUM",
+"reply": "BOX NUMBER = [%s]",
+"pre": "CSS:",
+"post": "CSS:"
+},
+"21030": {
+"cmd": "SET BOX NUM [%s]",
+"reply": null,
+"pre": "CSS:",
+"post": "CSS:"
+},
+"21031": {
+"cmd": "SET ECHO OFF",
+"reply": "echo is off",
+"pre": "]-O",
+"post": "CSS:"
+},
+"21032": {
+"cmd": "SET ECHO ON",
+"reply": "echo is on",
+"pre": "]-O",
+"post": "CSS:"
+},
+"21033": {
+"cmd": "GET BOX APP",
+"reply": "BOX APPLICATION = [%s]",
+"pre": "]-O",
+"post": "CSS:"
+},
+"21006": {
+"cmd": "DORSS",
+"reply": null,
+"pre": "]-O",
+"post": "RSS:"
+},
+"21007": {
+"cmd": "EXIT",
+"reply": null,
+"pre": "RSS:",
+"post": "]-O"
+},
+"21016": {
+"cmd": "DOLS",
+"reply": null,
+"pre": "]-O",
+"post": "LS:"
+},
+"21017": {
+"cmd": "EXIT",
+"reply": null,
+"pre": "LS:",
+"post": "]-O"
+},
+"21162": {
+"cmd": "GET HW_VER ",
+"reply": "HW_VER = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21150": {
+"cmd": "GET BPN ",
+"reply": "BPN = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21151": {
+"cmd": "GET STN NAME ",
+"reply": "STN NAME = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21152": {
+"cmd": "GET STN SN ",
+"reply": "STN SN  = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21153": {
+"cmd": "GET TIME ",
+"reply": " TIME = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21154": {
+"cmd": "GET FW_VER SC ",
+"reply": " FW_VER SC = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21155": {
+"cmd": "GET FW_VER EX",
+"reply": " FW_VER EX = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21156": {
+"cmd": "GET FW_VER WL",
+"reply": " FW_VER WL = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21157": {
+"cmd": "GET CP VER",
+"reply": " CP VER = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21158": {
+"cmd": "ALARM RD",
+"reply": " [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21163": {
+"cmd": "ALARM RD [%s]",
+"reply": " [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21159": {
+"cmd": " ALARM_EXT RD",
+"reply": " [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21160": {
+"cmd": " ALARM CLEAR",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21161": {
+"cmd": " ALARM_EXT CLEAR",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21300": {
+"cmd": "GET TIME",
+"reply": " TIME = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21250": {
+"cmd": "GET RX FREQ",
+"reply": " RX_FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21251": {
+"cmd": "GET RX2 FREQ",
+"reply": " RX2_FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21252": {
+"cmd": "GET DSP BER [%s] [%s] [%s] [%s] [%s]",
+"reply": " BER [%s] = [%s] [%s] [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21253": {
+"cmd": "GET DSP RSSI [%s] [%s] [%s]",
+"reply": " RSSI = [%s] [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21301": {
+"cmd": "SET DATE [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21302": {
+"cmd": "SET TIME [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21200": {
+"cmd": "FPM",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21201": {
+"cmd": "STOP",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21550": {
+"cmd": "MTR WL_P1",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21551": {
+"cmd": "STOP",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21552": {
+"cmd": "MTR TX_PA_P1",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21553": {
+"cmd": "STOP",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21554": {
+"cmd": "MTR RX_P1",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21555": {
+"cmd": "STOP",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21563": {
+"cmd": "MTR RX2_P1",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21564": {
+"cmd": "STOP",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21556": {
+"cmd": "MTR PS_P1",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21557": {
+"cmd": "STOP",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21558": {
+"cmd": "MTR UHSO",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21559": {
+"cmd": "STOP",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21562": {
+"cmd": "STOP",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21350": {
+"cmd": " FP ACC_DIS ON",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21351": {
+"cmd": " FP ACC_DIS OFF",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21352": {
+"cmd": " RESET",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21353": {
+"cmd": " GET PA ON",
+"reply": "PA ON = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21400": {
+"cmd": " GET PS EQUAL",
+"reply": "PS EQUAL = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21401": {
+"cmd": " SET PS EQUAL OFF",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21402": {
+"cmd": " SET PS EQUAL ON",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21403": {
+"cmd": "GET PS BATT_TYPE",
+"reply": "PS_BATT_TYPE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21450": {
+"cmd": " GET RX FREQ",
+"reply": "RX_FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21454": {
+"cmd": " GET RX2 FREQ",
+"reply": "RX2_FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21451": {
+"cmd": " AL RSSI [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21452": {
+"cmd": " SET CHN CUR [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21453": {
+"cmd": " GET CHN CUR",
+"reply": "CHN CUR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22001": {
+"cmd": " AL SQ RD",
+"reply": "SQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22004": {
+"cmd": " GET WL SQL",
+"reply": "WL SQL = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22006": {
+"cmd": " AL SQ DN [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22007": {
+"cmd": " AL SQ UP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22008": {
+"cmd": " AL SQ WR 127",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22005": {
+"cmd": " AL SQ WR 0",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22009": {
+"cmd": " SET WL SQL NORMAL",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22010": {
+"cmd": " SET WL SQL CSQ",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22011": {
+"cmd": " AL SQ SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21600": {
+"cmd": " GET TX FREQ",
+"reply": "TX_FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21601": {
+"cmd": " AL STNPWR RESET",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21602": {
+"cmd": " SET TX PWR [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21603": {
+"cmd": " KEYUP",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21604": {
+"cmd": " AL STNPWR WR [%s] [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21605": {
+"cmd": " AL STNPWR SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21606": {
+"cmd": " DEKEY",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21607": {
+"cmd": " SET FREQ TX [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21608": {
+"cmd": " SET FREQ TX 0",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21610": {
+"cmd": " AL PEND RD",
+"reply": "PEND = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21611": {
+"cmd": " AL PEND NOREF",
+"reply": "TXFREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21612": {
+"cmd": " AL PEND STATUS",
+"reply": "PEND [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21613": {
+"cmd": " AL PEND DN [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21614": {
+"cmd": " AL PEND UP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21615": {
+"cmd": " AL PEND AUTO",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21616": {
+"cmd": " AL PEND SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21617": {
+"cmd": " SET REF [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21618": {
+"cmd": " SET REF INT",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21619": {
+"cmd": " SET REF 5MHZ",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21620": {
+"cmd": " SET REF 10MHZ",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21621": {
+"cmd": " SET REF EXT",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21622": {
+"cmd": " AL PEND ABORT",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21623": {
+"cmd": " AL UHSO RD",
+"reply": "UHSO = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21624": {
+"cmd": " AL UHSO DN [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21625": {
+"cmd": " AL UHSO UP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21626": {
+"cmd": " AL UHSO WARM",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21627": {
+"cmd": " AL UHSO SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21630": {
+"cmd": " GET ADDR ISV",
+"reply": "ISV MULTICAST ADDR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21631": {
+"cmd": " GET ADDR SCM",
+"reply": "STN CTRL MULTICAST ADDR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21632": {
+"cmd": " SET ADDR ISV [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21633": {
+"cmd": " SET ADDR SCM [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"20209": {
+"cmd": "GET STN SYS",
+"reply": "STN SYS = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21008": {
+"cmd": "DORAP",
+"reply": null,
+"pre": "]-O",
+"post": "RAP:"
+},
+"21009": {
+"cmd": "EXIT",
+"reply": null,
+"pre": "RAP:",
+"post": "]-O"
+},
+"25002": {
+"cmd": "EXIT",
+"reply": null,
+"pre": "DEBUG>",
+"post": "]-O"
+},
+"20210": {
+"cmd": "GET FP VER",
+"reply": "FP VER = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21202": {
+"cmd": "FP SET IR_RPTR ENABLE",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21203": {
+"cmd": "FP SET IR_RPTR DISABLE",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21204": {
+"cmd": "FP ACC_DIS ON",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21205": {
+"cmd": "FP ACC_DIS OFF",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21207": {
+"cmd": "RC SET PTT XMIT",
+"reply": "  ",
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21206": {
+"cmd": "RC SET PTT OFF",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21560": {
+"cmd": "RC SET PA TEST ON",
+"reply": "  ",
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21561": {
+"cmd": "RC SET PA TEST OFF",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"21565": {
+"cmd": "GET PA TEST",
+"reply": "PA TEST = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21510": {
+"cmd": " GET CP ISV",
+"reply": "CP ISV = [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21502": {
+"cmd": " GET CP SIZE",
+"reply": "CP SIZE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21511": {
+"cmd": " NEW CP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21512": {
+"cmd": " NEW WC [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21503": {
+"cmd": " GET MCS SIZE",
+"reply": "MCS SIZE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21504": {
+"cmd": " GET WC SIZE",
+"reply": "WC SIZE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21505": {
+"cmd": " GET FW_VER BOOT.O",
+"reply": "FW_VER = [%s] TIMESTAMP = [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21506": {
+"cmd": " GET FW_VER BOOT2.O",
+"reply": "FW_VER = [%s] TIMESTAMP = [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21507": {
+"cmd": " GET BPN",
+"reply": "BPN = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21508": {
+"cmd": " GET ADDR IP",
+"reply": "IP ADDR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21509": {
+"cmd": " GET ADDR PHYS",
+"reply": "PHYS ADDR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21500": {
+"cmd": " RD CP [%s] [%s]",
+"reply": "[%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21501": {
+"cmd": " RD WC [%s] [%s]",
+"reply": "[%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21513": {
+"cmd": " WR CP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21514": {
+"cmd": " WR WC [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21515": {
+"cmd": " MOVE CP",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21516": {
+"cmd": " MOVE CP_XL [%s] [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21521": {
+"cmd": " MOVE WC_XL [%s] [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21517": {
+"cmd": " MOVE WC",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21518": {
+"cmd": " RESET SITE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21519": {
+"cmd": " STOP CP",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21520": {
+"cmd": " STOP WC",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21700": {
+"cmd": " GET MGR1 IP",
+"reply": "IP MGR1 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21701": {
+"cmd": " GET MGR2 IP",
+"reply": "IP MGR2 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21702": {
+"cmd": "SET MGR1 IP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21703": {
+"cmd": "SET MGR2 IP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21704": {
+"cmd": " SET ADDR IP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21705": {
+"cmd": " SET ADDR PHYS [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21800": {
+"cmd": " AL REFMOD UP [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21802": {
+"cmd": " AL REFMOD DN [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21801": {
+"cmd": " AL REFMOD RD",
+"reply": "REFMOD = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21803": {
+"cmd": " AL REFMOD F5",
+"reply": "VCO1FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21804": {
+"cmd": " AL REFMOD F6",
+"reply": "VCO2FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21805": {
+"cmd": " AL REFMOD SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21806": {
+"cmd": " SET TEST_TONE OFF",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21807": {
+"cmd": " SET EEP REFMOD -1",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21752": {
+"cmd": " AL TXDEV GO F1",
+"reply": "TX1FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21753": {
+"cmd": " AL TXDEV GO F2",
+"reply": "TX2FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21754": {
+"cmd": " AL TXDEV GO F3",
+"reply": "TX3FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21755": {
+"cmd": " AL TXDEV GO F4",
+"reply": "TX4FREQ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21758": {
+"cmd": " SET EEP TXDEV -1",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21750": {
+"cmd": " AL TXDEV RD",
+"reply": " TXDEV = [%s] [%s] [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21751": {
+"cmd": " AL TXDEV WR [%s] [%s] [%s] [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21760": {
+"cmd": " AL TXDEV SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21850": {
+"cmd": " GET ASTRO_TONE",
+"reply": " ASTRO_TONE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21851": {
+"cmd": " SET ASTRO_TONE [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21852": {
+"cmd": " SET ASTRO_TONE OFF",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21853": {
+"cmd": " GET V52",
+"reply": " V52 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21854": {
+"cmd": " SET V52 ON",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21855": {
+"cmd": " SET V52 OFF",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21902": {
+"cmd": " GET FW_VER SC.O",
+"reply": "FW_VER = [%s] TIMESTAMP = [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21903": {
+"cmd": " GET FW_VER WL.O",
+"reply": "FW_VER = [%s] TIMESTAMP = [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21950": {
+"cmd": " GET STATE PASS",
+"reply": "STATE PASS = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21951": {
+"cmd": " SETPASS [%s] [%s] [%s]",
+"reply": null,
+"pre": "]-O",
+"post": "]-O"
+},
+"22000": {
+"cmd": " GET REF_CAL",
+"reply": "REF_CAL = [%s]",
+"pre": "CSS:",
+"post": "CSS:"
+},
+"22002": {
+"cmd": "SET REF_CAL_SAVE",
+"reply": null,
+"pre": "CSS:",
+"post": "CSS:"
+},
+"22003": {
+"cmd": "SET REF_CAL_ABORT ",
+"reply": null,
+"pre": "CSS:",
+"post": "CSS:"
+},
+"22060": {
+"cmd": "AL RXWL C1 RD 1KHZ",
+"reply": "1KHZ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22061": {
+"cmd": "AL RXWL C2 RD 1KHZ",
+"reply": "1KHZ = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22062": {
+"cmd": "AL RXWL C1 RD LB",
+"reply": "LB = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22063": {
+"cmd": "AL RXWL C1 RD HB",
+"reply": "HB = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22064": {
+"cmd": "AL RXWL C1 RD HBF",
+"reply": "HBF = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22065": {
+"cmd": "AL RXWL C1 RD ST",
+"reply": "ST = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22066": {
+"cmd": "SET TEST_TONE WL C1 1KHZ",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22067": {
+"cmd": "SET TEST_TONE WL C2 1KHZ",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22068": {
+"cmd": "SET TEST_TONE WL C1 LB",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22069": {
+"cmd": "SET TEST_TONE WL C1 HB",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22070": {
+"cmd": "SET TEST_TONE WL C1 ST",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22071": {
+"cmd": "AL RXWL C1 WR 1KHZ [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22072": {
+"cmd": "AL RXWL C2 WR 1KHZ [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22073": {
+"cmd": "AL RXWL C1 WR LB [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22074": {
+"cmd": "AL RXWL C1 WR HB [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22075": {
+"cmd": "AL RXWL C1 WR HBF [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22076": {
+"cmd": "AL RXWL C1 WR ST [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22077": {
+"cmd": "AL RXWL C1 SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22078": {
+"cmd": "AL RXWL C2 SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22079": {
+"cmd": "AL RXWL C1 RD AT",
+"reply": "AT = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22080": {
+"cmd": "AL RXWL C1 WR AT [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22120": {
+"cmd": "AL LTO RD",
+"reply": "LTO = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22121": {
+"cmd": "AL LTO WR  [%s]",
+"reply": "LTO = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22122": {
+"cmd": "AL LTO TEST_OFF",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22123": {
+"cmd": "AL LTO TEST_ON",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22124": {
+"cmd": "AL LTO SAVE",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22125": {
+"cmd": "AL LTO RESET",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22050": {
+"cmd": " GET FW_VER [%s]",
+"reply": "FW_VER = [%s] TIMESTAMP = [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22053": {
+"cmd": " GET OC_VER [%s]",
+"reply": "FW_VER = [%s] TIMESTAMP = [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22051": {
+"cmd": " CHECK ID [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22052": {
+"cmd": " SWDL [%s] [%s] SLIP [%s]",
+"reply": "FLASH ME [%s] [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21275": {
+"cmd": "GET RX FREQ_BAND",
+"reply": " RX_FREQ_BAND = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21276": {
+"cmd": "GET RX2 FREQ_BAND",
+"reply": " RX2_FREQ_BAND = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21278": {
+"cmd": "GET RX TYPE",
+"reply": " RX_TYPE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21279": {
+"cmd": "GET PA TYPE",
+"reply": " PA_TYPE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21280": {
+"cmd": "GET PA ORD_PWR",
+"reply": " PA_ORD_PWR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21281": {
+"cmd": "GET TX COMPA",
+"reply": " TX_COMPA = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21282": {
+"cmd": "GET WL PORT_STAT",
+"reply": " WL_PORT_STAT = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21283": {
+"cmd": "GET PS RATED_PWR",
+"reply": " PS_RATED_PWR = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21284": {
+"cmd": "GET PS BATT_TYPE",
+"reply": " PS_BATT_TYPE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21285": {
+"cmd": "GET REF_TYPE",
+"reply": " REF_TYPE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21277": {
+"cmd": "GET TX FREQ_BAND",
+"reply": " TX_FREQ_BAND = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22201": {
+"cmd": "AL TXWL RD_REF C1 5",
+"reply": "C1 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22202": {
+"cmd": "AL TXWL RD_REF C2 5",
+"reply": "C2 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22203": {
+"cmd": "AL TXWL WR_REF C1 [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22204": {
+"cmd": "AL TXWL WR_REF C2 [%s]",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22205": {
+"cmd": "AL TXWL KEYUP 10",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22206": {
+"cmd": "AL TXWL DEKEY",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22207": {
+"cmd": "AL TXWL GO C1 5",
+"reply": "TXWL DONE",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22208": {
+"cmd": "AL TXWL GO C2 5",
+"reply": "TXWL DONE",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22250": {
+"cmd": " GET STATION_STATUS 4",
+"reply": "[%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22253": {
+"cmd": " GET STATION_STATUS 3",
+"reply": "[%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22251": {
+"cmd": " SET STATION_DISABLE OFF",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22252": {
+"cmd": " SET STATION_DISABLE ON",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21522": {
+"cmd": " RD MCS [%s] [%s]",
+"reply": "[%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21523": {
+"cmd": " CLEAR MCS",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21475": {
+"cmd": " AL TDATA GO",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21476": {
+"cmd": " SET TDATA ON",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"21477": {
+"cmd": " SET TDATA OFF",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+},
+"20211": {
+"cmd": "FP SQ [%s]",
+"reply": " SQ = [%s]",
+"pre": "RAP:",
+"post": "RAP:"
+},
+"20219": {
+"cmd": "FP CHN [%s]",
+"reply": null,
+"pre": "RAP:",
+"post": "RAP:"
+},
+"20214": {
+"cmd": "FP INTCOM ON",
+"reply": " INTCOM = [%s]",
+"pre": "RAP:",
+"post": "RAP:"
+},
+"20215": {
+"cmd": "FP INTCOM OFF",
+"reply": " INTCOM = [%s]",
+"pre": "RAP:",
+"post": "RAP:"
+},
+"20216": {
+"cmd": "FP SPKRVOL [%s]",
+"reply": " SPKRVOL = [%s]",
+"pre": "RAP:",
+"post": "RAP:"
+},
+"20217": {
+"cmd": "FP SPKRVOL [%s]",
+"reply": " SPKRVOL = [%s]",
+"pre": "RAP:",
+"post": "RAP:"
+},
+"20218": {
+"cmd": "GET CHN MAX",
+"reply": " CHN MAX = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22300": {
+"cmd": "SET SC_FAN ON",
+"reply": " [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22301": {
+"cmd": "SET SC_FAN AUTO",
+"reply": " [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22350": {
+"cmd": "GET OC NUM",
+"reply": "OC NUM = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22351": {
+"cmd": "GET OC [%s] SW VER",
+"reply": " OC [%s] SW VER = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22352": {
+"cmd": "GET OC [%s] SW PART",
+"reply": "OC [%s] SW PART = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22353": {
+"cmd": "GET OC [%s] SW VER OC",
+"reply": "OC [%s] SW VER OC = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22354": {
+"cmd": "GET OC [%s] SW PART OC",
+"reply": "OC [%s] SW PART OC = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22355": {
+"cmd": "GET OC [%s] SW VER B1",
+"reply": "OC [%s] SW VER B1 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22356": {
+"cmd": "GET OC [%s] SW VER B2",
+"reply": "OC [%s] SW VER B2 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22357": {
+"cmd": "GET OC [%s] SW PART B1",
+"reply": "OC [%s] SW PART B1 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22358": {
+"cmd": "GET OC [%s] SW PART B2",
+"reply": "OC [%s] SW PART B2 = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22359": {
+"cmd": "GET OC [%s] WL [%s] SW VER WL",
+"reply": "OC [%s] WL [%s] SW VER = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22360": {
+"cmd": "GET OC [%s] WL [%s] SW VER",
+"reply": "OC [%s] WL [%s] SW VER = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22364": {
+"cmd": "GET OC [%s] WL [%s] SW PART WB",
+"reply": "OC [%s] WL [%s] SW PART = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22363": {
+"cmd": "GET OC [%s] WL [%s] SW VER WB",
+"reply": "OC [%s] WL [%s] SW VER = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22361": {
+"cmd": "GET OC [%s] WL [%s] SW PART WL",
+"reply": "OC [%s] WL [%s] SW PART = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22362": {
+"cmd": "GET OC [%s] WL [%s] SW PART",
+"reply": "OC [%s] WL [%s] SW PART = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22450": {
+"cmd": "GET CM_MODE",
+"reply": "CM_MODE = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22451": {
+"cmd": "GET CM_NUM",
+"reply": "CM_NUM = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22459": {
+"cmd": "GET COMPARATOR_NAME",
+"reply": "COMPARATOR_NAME = [%s]",
+"pre": "RSS:",
+"post": "RSS:"
+},
+"22452": {
+"cmd": "GET LD",
+"reply": null,
+"pre": "LS:",
+"post": "LS:"
+},
+"22453": {
+"cmd": "LCM ON",
+"reply": "LCM ON",
+"pre": "LS:",
+"post": "LS:"
+},
+"22454": {
+"cmd": "LCM OFF",
+"reply": "LCM OFF",
+"pre": "LS:",
+"post": "LS:"
+},
+"22455": {
+"cmd": "FVP [%s] ON",
+"reply": null,
+"pre": "LS:",
+"post": "LS:"
+},
+"22456": {
+"cmd": "FVP [%s] OFF",
+"reply": null,
+"pre": "LS:",
+"post": "LS:"
+},
+"22457": {
+"cmd": "VDP [%s] ON",
+"reply": null,
+"pre": "LS:",
+"post": "LS:"
+},
+"22458": {
+"cmd": "VDP [%s] OFF",
+"reply": null,
+"pre": "LS:",
+"post": "LS:"
+},
+"21018": {
+"cmd": "LIST_ALL_ALERTS",
+"reply": null,
+"pre": "DEBUG>",
+"post": "DEBUG>"
+},
+"22500": {
+"cmd": "",
+"reply": null,
+"pre": "RSS:",
+"post": "RSS:"
+}
+}
