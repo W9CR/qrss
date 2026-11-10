@@ -1621,6 +1621,11 @@ class MainWindow(QMainWindow):
 
 
 def main():
+    if "--version" in sys.argv[1:]:
+        # Before Qt is started, so it works on a headless machine - the release
+        # builds use it as a smoke test of the frozen bundle.
+        print("QBS %s" % __version__)
+        return
     if sys.platform == "darwin":
         # macOS reads the application-menu name ("Python" for a `python -m` run, with About/Hide/Quit)
         # from the bundle's CFBundleName.  Override it BEFORE QApplication builds the menu so it says QBS.

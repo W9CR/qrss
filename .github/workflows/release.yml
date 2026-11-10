@@ -52,6 +52,11 @@ jobs:
           # tail of a failed build there.
           [ $rc -eq 0 ] || tail -n 60 build.log | sed 's/%/%25/g' | sed 's/^/::error::/'
           exit $rc
+      - name: Smoke test
+        run: |
+          want="QBS $(python3 -c "import sys; sys.path.insert(0,'release'); import buildinfo; print(buildinfo.parse()['display'])")"
+          got=$(release/out/dist/QBS.app/Contents/MacOS/QBS --version)
+          echo "$got"; [ "$got" = "$want" ]
       - uses: actions/upload-artifact@v4
         with:
           name: macos
@@ -69,6 +74,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt pyinstaller
+      # PySide6's wheels need Qt's shared-library dependencies at import time, and
+      # the ubuntu runner image has none of them (libEGL first).
+      - run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libegl1 libgl1 libxkbcommon0 libxkbcommon-x11-0 libdbus-1-3 \
+            libfontconfig1 libxcb-cursor0 libxcb-icccm4 libxcb-keysyms1 libxcb-shape0
       - name: Build
         run: |
           set +e
@@ -76,6 +88,11 @@ jobs:
           rc=${PIPESTATUS[0]}
           [ $rc -eq 0 ] || tail -n 60 build.log | sed 's/%/%25/g' | sed 's/^/::error::/'
           exit $rc
+      - name: Smoke test
+        run: |
+          want="QBS $(python3 -c "import sys; sys.path.insert(0,'release'); import buildinfo; print(buildinfo.parse()['display'])")"
+          got=$(release/out/dist/qbs/qbs --version)
+          echo "$got"; [ "$got" = "$want" ]
       - uses: actions/upload-artifact@v4
         with:
           name: linux
@@ -104,6 +121,12 @@ jobs:
             Get-Content build.log -Tail 60 | ForEach-Object { "::error::$_" }
           }
           exit $rc
+      - name: Smoke test
+        shell: pwsh
+        run: |
+          # A windowed exe has no console to print to; the exit status is the test.
+          & (Join-Path $PWD "release\out\dist\QBS\QBS.exe") --version
+          if ($LASTEXITCODE -ne 0) { throw "QBS.exe --version exited $LASTEXITCODE" }
       - uses: actions/upload-artifact@v4
         with:
           name: windows
