@@ -32,6 +32,16 @@ matches `qrss/__init__.py`, and attaches the packages to a **draft** release (ma
 pre-release for an alpha or beta).  The "Run workflow" button builds the same artifacts
 without making a release.  Release notes are generated from the commit log.
 
+Each job runs its own artifact once (`QBS --version`, answered before Qt starts, so it
+works on a headless runner) and fails the job if the bundle does not start.  A failed
+build's log tail is republished as check-run annotations, which - unlike the job log -
+can be read without a GitHub login.
+
+The Linux job installs Qt's runtime libraries (`libegl1`, `libgl1`, `libxkbcommon*`,
+`libdbus-1-3`, `libfontconfig1`, `libxcb-*`) before building: PySide6's import needs
+them, the ubuntu runner image has none, and the first failure was a bare
+`ImportError: libEGL.so.1` out of `import PySide6.QtGui`.
+
 ## Troubleshooting
 
 ### macOS: `hdiutil` panics the kernel (macOS 15.5, Apple Silicon)

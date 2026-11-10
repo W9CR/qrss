@@ -51,7 +51,8 @@ python3 -m qrss [codeplug.cp]        # or: python3 -m qrss --sim
 ```
 
 Python 3.9 or later, PySide6 and pyserial; on macOS `pip` also installs pyobjc for the Dock
-icon.  `pip install .` gives a `qbs` command on the PATH.
+icon.  `pip install .` gives a `qbs` command on the PATH.  `QBS --version` prints the
+version and exits without opening a window.
 
 ## Using it
 
